@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Geospatial Data Formats
-nav_order: 10
+nav_order: 2
 ---
 
 ## Geospatial Data Formats
