@@ -6,6 +6,8 @@ nav_order: 2
 
 ## Geospatial Data Formats
 
- - [marquesarthur](https://github.com/marquesarthur) created some cool step-by-step styling   
- - [dohliam](https://github.com/dohliam) provided us some good language throughout the workshop
- - [UBC Library Research Commons](https://github.com/ubc-library-rc) for inspiring the theme-based workshop approach
+Data loaded into Geoserver must be in one of these formats:
+
+- Shapefile (Vector)
+- GeoTIFF (Raster)
+- ArcGRID (Raster)
