@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Filenames
-parent: Data Wrangling and Inspection
+parent: Preparing Data
 nav_order: 0
 ---
 
