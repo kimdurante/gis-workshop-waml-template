@@ -1,7 +1,9 @@
+---
 layout: default
 title: Registering Content
 nav_order: 1
 parent: Metadata
+---
 
 Registering data layers and creating Digital Repository Unique Identifiers (DRUIDs) in Argo
 
