@@ -3,19 +3,16 @@ layout: default
 title: Home
 nav_order: 1
 ---
-# Geospatial Data Wrangling
-### Geo4LibCamp 2021 Workshop  
-[bit.ly/waml20git](http://bit.ly/waml20git)  
+# Metadata and Data Management for Geospatial Data
 
+These guidelines outline operations for the management of geospatial data and metadata in the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), and EarthWorks (GeoBlacklight).
 ____
 
-### Presenters
+### Creator
 
 Kim Durante 
 Science Metadata Librarian  
 Stanford University Libraries
 [kdurante@stanford.edu](mailto:kdurante@stanford.edu)  
 
-### Goal of this workshop
 
-Learn about working with spatial data formats
