@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Data Wrangling and Inspection
-nav_order: 3
+nav_order: 2
+has_children: true
 ---
 Geospatial data must meet certain requirements to function within SDR, SSDI, and EarthWorks.
 
