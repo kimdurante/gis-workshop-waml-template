@@ -3,7 +3,7 @@ layout: default
 title: Home
 nav_order: 1
 ---
-# Metadata and Data Management for Geospatial Data
+# Geospatial Data Management
 
 These guidelines outline operations for the management of geospatial data and metadata in the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), and EarthWorks (GeoBlacklight).
 ____
