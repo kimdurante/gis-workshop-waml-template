@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Filenames
+title: Metadata for Rights and Collections
 parent: Metadata for Geospatial Data
 nav_order: 0
 ---
