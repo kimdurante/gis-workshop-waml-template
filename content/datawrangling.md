@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Wrangling and Inspection
+title: Preparing Data
 nav_order: 3
 has_children: true
 ---
