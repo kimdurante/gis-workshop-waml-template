@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Metadata for Rights and Collections
-parent: Metadata for Geospatial Data
+parent: Metadata
 nav_order: 0
 ---
 
