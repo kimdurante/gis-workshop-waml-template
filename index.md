@@ -11,7 +11,7 @@ ____
 
 ### Presenters
 
-Kim Durante <a href='https://github.com/ect123' target='_blank'><img src='content/img/GitHub-Mark-custom.svg' style='width:15px; padding:0; border:none !important;'></a>  
+Kim Durante 
 Science Metadata Librarian  
 Stanford University Libraries
 [kdurante@stanford.edu](mailto:kdurante@stanford.edu)  
@@ -19,9 +19,3 @@ Stanford University Libraries
 ### Goal of this workshop
 
 Learn about working with spatial data formats
-
-### Workshop Slides
-
-
-<iframe width="625" height="352" frameborder="0" marginheight="0" marginwidth="0" src="content/slides/waml_github20"></iframe>    
-*Click on the slides then press the F key for full screen*
