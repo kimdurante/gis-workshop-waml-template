@@ -2,6 +2,7 @@
 layout: default
 title: Spatial Reference Systems
 nav_order: 1
+parent: Data Wrangling and Inspection
 ---
 # Spatial Reference Systems
 
