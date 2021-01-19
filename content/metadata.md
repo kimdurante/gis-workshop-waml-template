@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Metadata for Geospatial Data
+title: Metadata
 nav_order: 3
 has_children: true
 ---
