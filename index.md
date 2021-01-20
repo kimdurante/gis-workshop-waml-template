@@ -9,13 +9,27 @@ These guidelines outline operations for the management of geospatial data and me
 
 ## GIS Data Formats
 
-The following file formats are stored in SDR with both ISO and MODS metadata. These files are delivered through Geoserver:
+The following file formats are stored in SDR with both ISO and MODS metadata. These files are delivered through GeoServer:
 
 * Shapefile
 * GeoTIFF
 * ArcGRID
 
 All other file formats (geodatabases, geoPDFs, etc.) are stored in SDR with MODS metadata.
+
+## Tools
+
+ArcGIS
+
+Argo
+
+GeoServer
+
+Python
+
+GDAL/OGR
+
+QGIS
 
 
 
