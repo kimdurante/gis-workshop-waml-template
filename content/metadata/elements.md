@@ -10,9 +10,9 @@ Required and Recommended Metadata Elements for Geospatial Data
 ### Brief
 
 |Element|Required?|
-|--|--|
-|[Metadata file identifier](#Metadata-File-Identifier)|Y|
-|[Dataset URI](#Dataset-URI)|Y|
+|:-----|:--|
+|[Metadata file identifier](#metadata-file-identifier)|Y|
+|[Dataset URI](#dataset-uri)|Y|
 |[Reference system identifier](#reference-system-identifier)|Y|
 |[Title](#title)|Y|
 |[Identifier](#identifier)|Y|
@@ -246,6 +246,7 @@ Required and Recommended Metadata Elements for Geospatial Data
 |Entry Guidelines|If there is a use/reproduction statement, select 'Other Restrictions' from the drop-down menu and provide the statement as free-text. Otherwise, leave empty for 'Public' data, or use 'Restricted' for Stanford-only data|
 |Controlled Vocabulary|[MD_RestrictionCode](http://wiki.esipfed.org/index.php/ISO_19115_and_19115-2_CodeList_Dictionaries#[MD_RestrictionCode)|
 |Example|Attribution Non-Commercial Share Alike 3.0 Unported|
+
 #### Aggregate Dataset Title
 
 |Element|Aggregate Dataset Title|
