@@ -7,6 +7,7 @@ parent: Metadata
 
 ### Creating Metadata with ArcCatalog
 
+
 [Setting Up ArcCatalog](#Setting-Up-ArcCatalog)  
 [Creating a Collection Template](#Creating-a-Collection-Template)  
 [Importing a Template](#Importing-a-Template)  
