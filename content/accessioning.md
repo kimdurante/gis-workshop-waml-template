@@ -3,6 +3,9 @@ layout: default
 title: Accessioning Data
 nav_order: 6
 ---
+## SDR Accessioning and EarthWorks Indexing
+
+Once metadata have been completed for all layers, the files need to be organized and staged for accessioning.
 
 ### Staging Data
 
