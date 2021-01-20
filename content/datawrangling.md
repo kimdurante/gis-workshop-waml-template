@@ -4,51 +4,11 @@ title: Preparing Data
 nav_order: 3
 has_children: true
 ---
+
+### Preparing Data
+
 Geospatial data must meet certain requirements to function within SDR, SSDI, and EarthWorks.
 
-### File Formats
-
-Data loaded into Geoserver must be in one of these formats:
-
-* Shapefile (Vector)
-* GeoTIFF (Raster)
-* ArcGRID (Raster)
-
-Other formats:
-
-* Geodatabases
-
-### Filenames
-
-Filenames should contain only letters, numbers, or underscores. No other special characters should be used. When renaming files, be sure to rename all files uniformly.
-
-
-| Invalid| Valid   |
-| :----- |:-----|
-|RIVERS&TRIBUTARIES.shp|RIVERS_TRIBUTARIES.shp|
-|RIVERS&TRIBUTARIES.prj|RIVERS_TRIBUTARIES.prj|
-|RIVERS&TRIBUTARIES.shx|RIVERS_TRIBUTARIES.shx|
-|RIVERS&TRIBUTARIES.dbf|RIVERS_TRIBUTARIES.dbf|
-
-
-In some cases errors can occur when file extensions are capitalized. Renaming the file may resolve this error.
-
-
-| Old  | New   |
-| :----- |:-----|
-|ZONING.CPG|ZONING.cpg|
-|ZONING.DBF|ZONING.dbf|
-
-
-### Spatial Reference Systems
-
-All GIS layers must have an associated spatial reference system (SRS). SRS metadata are recorded using a code and a codespace (namespace). Codespaces represent registries that maintain identifiers for SRSs, the most common being the [EPSG Geodetic Parameter Dataset (EPSG)](http://www.epsg-registry.org). 
-
-Example SRS Codespace: EPSG<br/>Example SRS Code: 2227
-
-All layers with an SRS that is not WGS84 (EPSG:4326) are transformed during accessioning and made available for download in both the original and transformed ('generated') versions.
-
-Use of the Web Mercator (EPSG:3857) SRS is not recommended.
 
 ###  Data Properties
 
