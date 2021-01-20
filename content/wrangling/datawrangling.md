@@ -5,11 +5,39 @@ nav_order: 3
 parent: Preparing Data
 ---
 
-## Preparing Data
+## Data Wrangling
 
-Create a directory for the entire collection. 
+### Filenames
+
+Filenames should contain only letters, numbers, or underscores. No other special characters should be used. When renaming files, be sure to rename all files uniformly.
 
 
+| Invalid| Valid   |
+| :----- |:-----|
+|RIVERS&TRIBUTARIES.shp|RIVERS_TRIBUTARIES.shp|
+|RIVERS&TRIBUTARIES.prj|RIVERS_TRIBUTARIES.prj|
+|RIVERS&TRIBUTARIES.shx|RIVERS_TRIBUTARIES.shx|
+|RIVERS&TRIBUTARIES.dbf|RIVERS_TRIBUTARIES.dbf|
+
+
+In some cases errors can occur when file extensions are capitalized. Renaming the file may resolve this error.
+
+
+| Old  | New   |
+| :----- |:-----|
+|ZONING.CPG|ZONING.cpg|
+|ZONING.DBF|ZONING.dbf|
+
+
+### Spatial Reference Systems
+
+All GIS layers must have an associated spatial reference system (SRS). SRS metadata are recorded using a code and a codespace (namespace). Codespaces represent registries that maintain identifiers for SRSs, the most common being the [EPSG Geodetic Parameter Dataset (EPSG)](http://www.epsg-registry.org). 
+
+Example SRS Codespace: EPSG<br/>Example SRS Code: 2227
+
+All layers with an SRS that is not WGS84 (EPSG:4326) are transformed during accessioning and made available for download in both the original and transformed ('generated') versions.
+
+Use of the Web Mercator (EPSG:3857) SRS is not recommended.
 ###  Data Properties
 
 In some cases data will need to be inspected using GIS or geospatial toolkits.  
