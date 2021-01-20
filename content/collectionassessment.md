@@ -17,11 +17,11 @@ nav_order: 2
 
 ### Determining Rights - Administrative Policy Objects
 
-* All collections and data must be governed by an Administrative Policy Object (APO). Locate the appropriate APO from [this list of Admin Policies](https://argo.stanford.edu/catalog/facet/nonhydrus_apo_title_ssim). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
+* All collections and data layers must be governed by an Administrative Policy Object (APO). Locate the appropriate APO from [this list of Admin Policies](https://argo.stanford.edu/catalog/facet/nonhydrus_apo_title_ssim). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
 ### Creating a Collection Object
 
-Collection objects are created using either MARC or MODS metadata. 
+* Collection objects are described using either MARC or MODS metadata. If a MARC record already exists in WorkFlows, enhance the record as needed and create a collection from the catKey. If no MARC record exists, register the collection using a title and description. Update the MODS (descMetadata) after the object has accessioned.
 
 ### MARC
 
