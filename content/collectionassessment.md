@@ -4,6 +4,10 @@ title: Creating a Collection
 nav_order: 2
 ---
 
+## Creating a Collection
+
+All data layers must belong to at least one collection. 
+
 ### Assessing the Collection
 
 GIS data are often acquired as collections. The definition of a collection as it applies to these kinds of data can be quite vague and might include one or more layers purchased from vendors, georeferenced maps, open data downloaded from a portal or website, or scholarly research data.
@@ -28,9 +32,9 @@ Consider:
 
 All data layers and collections must be governed by an Administrative Policy Object (APO). Locate the appropriate APO from [this list of Admin Policies](https://argo.stanford.edu/catalog/facet/nonhydrus_apo_title_ssim). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
-### Creating a Collection
+### Creating a Collection Object
 
-All data layers must belong to at least one collection. Collection objects are created using either MARC or MODS metadata. 
+Collection objects are created using either MARC or MODS metadata. 
 
 ### MARC
 
