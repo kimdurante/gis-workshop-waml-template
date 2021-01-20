@@ -15,10 +15,7 @@ The following file formats are stored in SDR with both ISO and MODS metadata. Th
 * GeoTIFF
 * ArcGRID
 
-These formats are stored in SDR with MODS metadata:
-
-* Geodatabase
-* GeoPDF
+All other file formats (geodatabases, geoPDFs, etc.) are stored in SDR with MODS metadata.
 
 
 
