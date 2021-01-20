@@ -5,7 +5,7 @@ nav_order: 1
 parent: Metadata
 ---
 
-Required and Recommended Metadata Elements for Geospatial Data
+## Required and Recommended Metadata Elements for Geospatial Data
 
 ### Brief
 
