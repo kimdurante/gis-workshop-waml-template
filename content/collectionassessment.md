@@ -4,14 +4,14 @@ title: Creating a Collection
 nav_order: 2
 ---
 
-### Collection Assessment
+### Assessing the Collection
 
 GIS data are often acquired as collections. The definition of a collection as it applies to these kinds of data can be quite vague and might include one or more layers purchased from vendors, georeferenced maps, open data downloaded from a portal or website, or scholarly research data.
 
 Survey the contents of the collection to check for things such as:
 
 * Type(s) of data
-* Total number of files
+* Total number of layers
 * Supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
 
 Consider:
@@ -24,18 +24,15 @@ Consider:
 * What are the access and use restrictions (i.e. rights)
 
 
-### Rights - Administrative Policy Objects
+### Determining Rights - Administrative Policy Objects
 
-All data layers and collections must be governed by an Administrative Policy Object (APO). 
-Select the appropriate APO from the [current list of Admin Policies](https://argo.stanford.edu/catalog/facet/nonhydrus_apo_title_ssim). 
-
-If an APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
+All data layers and collections must be governed by an Administrative Policy Object (APO). Locate the appropriate APO from [this list of Admin Policies](https://argo.stanford.edu/catalog/facet/nonhydrus_apo_title_ssim). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
 ### Creating a Collection
 
 All data layers must belong to at least one collection. Collection objects are created using either MARC or MODS metadata. 
 
-#### MARC
+### MARC
 
 If a MARC record already exists for the collection, enhance the record in WorkFlows as needed and create a collection from the catKey:
 
@@ -47,7 +44,7 @@ DRUID: qf529ms0562
 
 PURL: https://purl.stanford.edu/qf529ms0562
 
-#### MODS
+### MODS
 
 
 If no MARC record exists, register the collection using a title and description. Update the MODS (descMetadata) after the object has accessioned.
