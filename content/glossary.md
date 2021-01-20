@@ -9,21 +9,9 @@ nav_order: 9
 
 
 
-**Command line** – (or Terminal) An interface for entering textual commands on your computer. On Mac OS, this is known as the Terminal and is found in the Applications/Utilities directory. On Windows, this is known as the Command Prompt and can be found under Start>Windows System. Git Bash is also a popular command line interface.
+**The ArcGIS Metadata Format** – [Info](https://desktop.arcgis.com/en/arcmap/10.3/manage-data/metadata/the-arcgis-metadata-format.htm)
 
-**Git** – [Git](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F) is a version control software. Many people use Git from the command line, but there is also a [desktop GUI interface](https://desktop.github.com/).
 
-**Git Repository** – A Git repository is essentially an instance of Git version control running in a file directory on your computer. You create a Git repository on your computer by either cloning a repository from GitHub, or by initializing a new repository in a directory (folder) on your computer. On your own computer, this is called a "local repository." On GitHub, this is referred to as a "remote repository." See [Git Basics](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository#ch02-git-basics-chapter).
-
-**GitHub** – (or [GitHub.com](https://www.github.com)) GitHub is a free(mium) website for hosting remote Git repositories. It is primarily used for code. GitHub facilitates collaboration by providing access control, task management, bug tracking, and more for all of it's project repositories.
-
-**GitHub Pages** – [GitHub Pages](https://pages.github.com) is a built-in function of GitHub that converts a repository into a website. Pages is a very simple method for creating static webpages.
-
-**Main/Master** – The primary repository for a project on GitHub. Formerly named "master", this was updated to "main" October 1 2020. (Many repositories will still use "master" until updated by their owners.)
-
-**Fork** – A fork is a remote copy of a GitHub repository. Forking a repository permits others to make changes to a project without modifying the main/master branch of the project. Once forked and modified, changes can be merged with the main/master by way of a Pull Request.
-
-**Pull Request** – A method for suggesting changes to content stored in a GitHub repository. Someone wishing to make a change to a repository can fork the main repository, modify a file(s), and submit a pull request that will be reviewed by the main repository's owner. If accepted, the changes will be merged with the main repository.
 
 **Jekyll** – [Jekyll](https://jekyllrb.com/) is a static site generator used for creating a variety of online content. GitHub Pages relies on Jekyll behind the scenes. The site you're looking at right now was created using Jekyll.
 
