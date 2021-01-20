@@ -6,11 +6,9 @@ nav_order: 2
 
 ## Creating a Collection
 
-All data layers must belong to at least one collection. 
+All data layers must belong to at least one collection. GIS data are often acquired as collections. The concept of a collection when applied to these kinds of data can sometimes be vague and might include: data purchased from vendors, georeferenced maps, open data downloaded from a website/portal, or scholarly research data.
 
 ### Assessing the Collection
-
-GIS data are often acquired as collections. The definition of a collection as it applies to these kinds of data can be quite vague and might include one or more layers purchased from vendors, georeferenced maps, open data downloaded from a portal or website, or scholarly research data.
 
 Survey the contents of the collection to check for things such as:
 
