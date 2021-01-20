@@ -23,9 +23,11 @@ nav_order: 2
 
 * Collection objects are described using either MARC or MODS metadata. If a MARC record already exists in WorkFlows, enhance the record as needed and create a collection from the catKey. If no MARC record exists, register the collection using a title and description. Update the MODS (descMetadata) after the object has accessioned. [Detailed instructions for creating a collection object](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+create+and+apply+a+collection+object).
 
+* A Digital Repository Unique Identifiers (DRUID) will be created for the collection.
+
 ### Collection-Level Metadata Recommendations
 
-* In addition to common bibliographic elements (creator, publisher, subjects, issue date, etc.) the following MODS/MARC fields are recommended for GIS collections:
+* In addition to common bibliographic elements (creator, publisher, subjects, issue date, etc.) the following MODS/MARC fields are recommended for collections:
 
 |Field|MODS|MARC|Example|
 |:-----|:------|:------|:------|
@@ -34,20 +36,7 @@ nav_order: 2
 |Genre|genre authority="lcgft"|655 (ind1='7'), (sub2='lcgft')|Geospatial data|
 |Coordinates|subject/cartographics/coordinates|255|(W 121.4851--W 120.3878/N 038.0775--N 037.1347)|
 
-Example MARC Collection Record example:
+* Example Collection PURL created from MARC record: [https://purl.stanford.edu/qf529ms0562](https://purl.stanford.edu/qf529ms0562)
 
-SearchWorks: [California Farmland Mapping and Monitoring Program, 2012](https://searchworks.stanford.edu/view/11715604)
+* Example Collection PURL created from MODS record: [https://purl.stanford.edu/fy405sm5009](https://purl.stanford.edu/fy405sm5009)
 
-DRUID: qf529ms0562
-
-PURL: https://purl.stanford.edu/qf529ms0562
-
-Example MARC Collection Record example:
-
-Title: Stanislaus County, California, GIS Data and Maps
-
-DRUID: fy405sm5009
-
-PURL: https://purl.stanford.edu/fy405sm5009
-
-SearchWorks: [Stanislaus County, California, GIS Data and Maps](https://searchworks.stanford.edu/view/fy405sm5009)
