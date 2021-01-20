@@ -26,7 +26,7 @@ Required and Recommended Metadata Elements for Geospatial Data
 |[Theme Keyword](#theme-keyword)|Y|
 |[Place Keyword](#place-keyword)|Y|
 |[Parent metadata identifier](#parent-metadata-identifier)||
-|[Status](#status)||</td><td>
+|[Status](#status)||
 |[Dataset Language](#dataset-language)||
 |[Temporal Extent](#temporal-extent)||
 |[Point of Contact](#point-of-contact)||
