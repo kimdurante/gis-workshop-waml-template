@@ -19,17 +19,9 @@ All other file formats (geodatabases, geoPDFs, etc.) are stored in SDR with MODS
 
 ## Tools
 
-ArcGIS
+In order to create metadata and accession content into SDR, you'll need ArcGIS software and access to Argo and GeoServer. 
 
-Argo
-
-GeoServer
-
-Python
-
-GDAL/OGR
-
-QGIS
+Other tools such as Python, GDAL/OGR, QGIS, and Oxygen are useful for automating tasks and data analysis.
 
 
 
