@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Collection Assessment
+title: Collection Survey
 nav_order: 2
 ---
 
