@@ -28,15 +28,9 @@ has_children: true
 
 ### Registering Data in Argo
 
-* Create a spreadsheet containing a **SourceID** and a **Label** for each layer in the collection. The Source ID prefix for all GIS layers is '*branner:*' plus an abbreviation for the collection name, followed by an underscore. Append the filename of the layer to the end of this prefix to create the Source ID.
+* Create a spreadsheet containing a **SourceID** and a **Label** for each layer in the collection. The Source ID prefix for all GIS layers is '*branner:*' plus an abbreviation for the collection name, followed by an underscore. Append the filename of the layer to the end of this prefix to create the Source ID. (ex. branner: _fmmp12_alameda2012.shp_)
 
-Example Source ID: branner:fmmp12_alameda2012.shp
-
-* The Label is the title of the data layer. If the data already have an existing title, use it. For georeferenced maps, use the original map title plus '(Raster Image)'. Otherwise, create a title using the pattern: *What, Where, When*. Examples:
-
-Topographical map of the Yosemite Valley and vicinity (Raster Image)
-
-Roads, Congo, 2009
+* The Label is the title of the data layer. If the data already have an existing title, use it. For georeferenced maps, use the original map title plus '(Raster Image)'. Otherwise, create a title using the pattern: *What, Where, When*. (ex. Examples: _Topographical map of the Yosemite Valley and vicinity (Raster Image)_ or _Roads, Congo, 2009_)
 
 * Format the spreadsheet as shown below, leaving the first and third columns blank.
 
