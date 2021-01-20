@@ -10,7 +10,7 @@ Required and Recommended Metadata Elements for Geospatial Data
 ### Brief
 
 <table>
-<tr><th> </th><th></th></tr>
+<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
 <tr><td>
 
 |Element  | Required?|
@@ -32,7 +32,6 @@ Required and Recommended Metadata Elements for Geospatial Data
 |[Parent metadata identifier](#parent-metadata-identifier)||
 |[Status](#status)||
 </td><td>
-
 |Element|Required?|
 |--|--|
 |[Dataset Language](#dataset-language)||
@@ -52,8 +51,6 @@ Required and Recommended Metadata Elements for Geospatial Data
 |[Aggregate Dataset Identifier](#aggregate-dataset-identifier)||
 |[Feature Catalog Identifier](#feature-catalog-name)||
 |[Thumbnail Preview](#thumbnail-preview)|Y|
-
-
 </td></tr> </table>
 
 ### Detailed
