@@ -10,7 +10,7 @@ Required and Recommended Metadata Elements for Geospatial Data
 ### Brief
 
 <table>
-<tr><th> </th><th> </th></tr>
+<tr><td> </td><td> </td></tr>
 <tr><td>
 |Element|Required?|
 |----|----|
