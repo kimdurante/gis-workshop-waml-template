@@ -1,4 +1,11 @@
-Required and Recommended Metadata Elements for Geospatial Data Layers
+---
+layout: default
+title: Required and Recommended Metadata Elements
+nav_order: 1
+parent: Metadata
+---
+
+Required and Recommended Metadata Elements for Geospatial Data
 
 ### Brief
 
