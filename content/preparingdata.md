@@ -32,9 +32,7 @@ has_children: true
 
 * The Label is the title of the data layer. If the data already have an existing title, use it. For georeferenced maps, use the original map title plus '(Raster Image)'. Otherwise, create a title using the pattern: *What, Where, When*. (ex. Examples: _Topographical map of the Yosemite Valley and vicinity (Raster Image)_ or _Roads, Congo, 2009_)
 
-* Format the spreadsheet as shown below, leaving the first and third columns blank.
-
-Example Collection: California Farmland Mapping and Monitoring Program, 2012
+* Format the spreadsheet as shown below, leaving the first and third columns blank. The following layers are part of the California Farmland Mapping and Monitoring Program, 2012 collection.
 
 ||SOURCEID||LABEL|
 |:----|:----|:----|:----|
@@ -45,7 +43,7 @@ Example Collection: California Farmland Mapping and Monitoring Program, 2012
 ||branner:fmmp12_contracosta2012.shp||Important Farmland, Contra Costa County, California, 2012|
 
 
-* Register the items in Argo under the appropriate APO and Collection. Use the Content Type ```File```.
+* Register the items in Argo under the appropriate APO and Collection using the Content Type _File_.
 
 ||SOURCEID|DRUID|LABEL|
 |:----|:----|:----|:----|
