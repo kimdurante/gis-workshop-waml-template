@@ -49,3 +49,14 @@ Example Collection: California Farmland Mapping and Monitoring Program, 2012
 ||branner:fmmp12_butte2012.shp||Important Farmland, Butte County, California, 2012|
 ||branner:fmmp12_colusa2012.shp||Important Farmland, Colusa County, California, 2012|
 ||branner:fmmp12_contracosta2012.shp||Important Farmland, Contra Costa County, California, 2012|
+
+
+* Register the items in Argo under the appropriate APO and Collection. Use the Content Type ```File```.
+
+||SOURCEID|DRUID|LABEL|
+|:----|:----|:----|:----|
+||branner:fmmp12_alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012|
+||branner:fmmp12_amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|
+||branner:fmmp12_butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|
+||branner:fmmp12_colusa2012.shp|rc560ns7872|Important Farmland, Colusa County, California, 2012|
+||branner:fmmp12_contracosta2012.shp|rc560ns7872|Important Farmland, Contra Costa County, California, 2012|
