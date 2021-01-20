@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Metadata Templates
+title: Templates
 nav_order: 2
 parent: Metadata
 ---
