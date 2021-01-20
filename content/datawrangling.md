@@ -7,7 +7,7 @@ has_children: true
 
 ## Preparing Data
 
-Geospatial data must meet certain requirements to function within SDR, SSDI, and EarthWorks.
+Create a directory for the entire collection. 
 
 
 ###  Data Properties
