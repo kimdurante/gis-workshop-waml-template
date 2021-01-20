@@ -26,23 +26,19 @@ has_children: true
 |fed_1hr_coabdis.shp|3310| Polygon|
 
 
-### Registering Data Layers in Argo
+### Registering Data in Argo
 
-Create Digital Repository Unique Identifiers (DRUIDs) using Argo.
-
-
-
-Create a spreadsheet manifest containing a SourceID and a Label for each layer in the collection. The Source ID prefix for all GIS layers is '*branner:*' plus an abbreviation for the collection name, followed by an underscore. Append the filename of the layer to the end of this prefix to create the Source ID.
+* Create a spreadsheet containing a **SourceID** and a **Label** for each layer in the collection. The Source ID prefix for all GIS layers is '*branner:*' plus an abbreviation for the collection name, followed by an underscore. Append the filename of the layer to the end of this prefix to create the Source ID.
 
 Example Source ID: branner:fmmp12_alameda2012.shp
 
-The Label is the title of the data layer. If the data already have an existing title, use it. For georeferenced maps, use the original map title plus '(Raster Image)'. Otherwise, create a title using the pattern: *What, Where, When*.
+* The Label is the title of the data layer. If the data already have an existing title, use it. For georeferenced maps, use the original map title plus '(Raster Image)'. Otherwise, create a title using the pattern: *What, Where, When*. Examples:
 
-Examples:<br/> 
-Topographical map of the Yosemite Valley and vicinity (Raster Image)<br/>
+Topographical map of the Yosemite Valley and vicinity (Raster Image)
+
 Roads, Congo, 2009
 
-Format the manifest as shown below, leaving the first and third columns blank.
+* Format the spreadsheet as shown below, leaving the first and third columns blank.
 
 Example Collection: California Farmland Mapping and Monitoring Program, 2012
 
