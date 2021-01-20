@@ -38,7 +38,7 @@ nav_order: 2
 |Genre|genre authority="lcgft"|655 (ind1='7'), (sub2='lcgft')|Geospatial data|
 |Coordinates|subject/cartographics/coordinates|255|(W 121.4851--W 120.3878/N 038.0775--N 037.1347)|
 
-* Example Collection PURL created from MARC record: [https://purl.stanford.edu/qf529ms0562](https://purl.stanford.edu/qf529ms0562)
+* Example Collection PURL (from MARC): [https://purl.stanford.edu/qf529ms0562](https://purl.stanford.edu/qf529ms0562)
 
-* Example Collection PURL created from MODS record: [https://purl.stanford.edu/fy405sm5009](https://purl.stanford.edu/fy405sm5009)
+* Example Collection PURL (from MODS): [https://purl.stanford.edu/fy405sm5009](https://purl.stanford.edu/fy405sm5009)
 
