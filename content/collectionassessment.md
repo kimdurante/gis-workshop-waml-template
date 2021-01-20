@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Collection Survey
+title: Creating a Collection
 nav_order: 2
 ---
 
-**Collection Survey**
+### Collection Assessment
 
 GIS data are often acquired as collections. The definition of a collection as it applies to these kinds of data can be quite vague and might include one or more layers purchased from vendors, georeferenced maps, open data downloaded from a portal or website, or scholarly research data.
 
