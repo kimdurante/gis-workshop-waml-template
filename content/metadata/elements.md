@@ -10,7 +10,7 @@ Required and Recommended Metadata Elements for Geospatial Data
 ### Brief
 
 |Element|Required?|
-|----|----|
+|--|--|
 |[Metadata file identifier](#Metadata-File-Identifier)|Y|
 |[Dataset URI](#Dataset-URI)|Y|
 |[Reference system identifier](#reference-system-identifier)|Y|
