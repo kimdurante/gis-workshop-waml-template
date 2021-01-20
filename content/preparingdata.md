@@ -43,7 +43,7 @@ has_children: true
 ||branner:fmmp12_contracosta2012.shp||Important Farmland, Contra Costa County, California, 2012|
 
 
-* Register the items in Argo under the appropriate APO and Collection using the Content Type _File_.
+* Register the items in Argo under the appropriate APO and Collection using the Content Type _File_. Paste the DRUIDs into the spreadsheet.
 
 ||SOURCEID|DRUID|LABEL|
 |:----|:----|:----|:----|
