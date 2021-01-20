@@ -12,7 +12,8 @@ has_children: true
 * Layers must adhere to certain requirements to function properly within SDR, SSDI, and EarthWorks.
 
 ### Checking Data Properties
-* Ensure that each layer has a valid filename, spatial reference, and geographic extent before accessioning begins. Refer to the instructions for Data Wrangling if you need to change filenames, spatial references, or extents.
+
+* Ensure that each layer has a valid filename, spatial reference, and geographic extent before accessioning begins. Refer to the instructions for Data Wrangling if you encounter problems with content.
 
 * [Run this script to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py)
 
@@ -24,8 +25,31 @@ has_children: true
 |arb_california_counties_aligned_03.shp|3310| Polygon|
 |fed_1hr_coabdis.shp|3310| Polygon|
 
-### Creating a List of Layers
 
-* 
+### Registering Data Layers in Argo
 
-### Registering Data
+Create Digital Repository Unique Identifiers (DRUIDs) using Argo.
+
+
+
+Create a spreadsheet manifest containing a SourceID and a Label for each layer in the collection. The Source ID prefix for all GIS layers is '*branner:*' plus an abbreviation for the collection name, followed by an underscore. Append the filename of the layer to the end of this prefix to create the Source ID.
+
+Example Source ID: branner:fmmp12_alameda2012.shp
+
+The Label is the title of the data layer. If the data already have an existing title, use it. For georeferenced maps, use the original map title plus '(Raster Image)'. Otherwise, create a title using the pattern: *What, Where, When*.
+
+Examples:<br/> 
+Topographical map of the Yosemite Valley and vicinity (Raster Image)<br/>
+Roads, Congo, 2009
+
+Format the manifest as shown below, leaving the first and third columns blank.
+
+Example Collection: California Farmland Mapping and Monitoring Program, 2012
+
+||SOURCEID||LABEL|
+|:----|:----|:----|:----|
+||branner:fmmp12_alameda2012.shp||Important Farmland, Alameda County, California, 2012|
+||branner:fmmp12_amador2012.shp||Important Farmland, Amador County, California, 2012|
+||branner:fmmp12_butte2012.shp||Important Farmland, Butte County, California, 2012|
+||branner:fmmp12_colusa2012.shp||Important Farmland, Colusa County, California, 2012|
+||branner:fmmp12_contracosta2012.shp||Important Farmland, Contra Costa County, California, 2012|
