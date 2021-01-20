@@ -5,12 +5,14 @@ nav_order: 5
 has_children: true
 ---
 
-### Creating ISO 19139/19110 Metadata in ArcCatalog
+### Creating ISO 19139/19110 Metadata
 
-Metadata for shapefiles, geoTIFFs, and Grid layers are created in ArcCatalog and stored with the data in a manner that is appropriate for the data type. Metadata for shapefiles and geoTIFFs are recognizable by their file extensions _.shp.xml_ and _tif.xml_. Metadata for GRID files will always be named _metadata.xml_. ISO 19110 metadata are created for shapefiles to describe feature catalogs (data attributes). 
+* Metadata for shapefiles, geoTIFFs, and Grid layers are created in ArcCatalog and stored with the data in a manner that is appropriate for the data type. Metadata for shapefiles and geoTIFFs are recognizable by their file extensions _.shp.xml_ and _tif.xml_. Metadata for GRID files will always be named _metadata.xml_. 
 
-Metadata are output in the ArcGIS metadata format and transformed into ISO 19139, ISO 19110, MODS, and GeoBlacklight using the [gis-robot-suite](https://github.com/sul-dlss/gis-robot-suite/tree/master/robots).
+* ISO 19110 metadata are created for shapefiles to describe feature catalogs (data attributes). 
+
+* Metadata are output in the ArcGIS metadata format and transformed into ISO 19139, ISO 19110, MODS, and GeoBlacklight using the [gis-robot-suite](https://github.com/sul-dlss/gis-robot-suite/tree/master/robots).
 
 ### Creating MODS Metadata
 
-Geodatabases, GeoPDFs, and other geospatial data use MODS metadata. These metadata are created manually using either spreadsheets or XML files.
+* Geodatabases, GeoPDFs, and other geospatial data use MODS metadata. These metadata are created manually using either spreadsheets or XML files.
