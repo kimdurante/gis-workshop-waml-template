@@ -5,7 +5,7 @@ nav_order: 3
 has_children: true
 ---
 
-### Preparing Data
+## Preparing Data
 
 Geospatial data must meet certain requirements to function within SDR, SSDI, and EarthWorks.
 
