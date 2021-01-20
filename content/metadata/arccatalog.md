@@ -1,6 +1,7 @@
+---
 layout: default
 title: Creating Metadata with ArcCatalog
-nav_order: 1
+nav_order: 0
 parent: Metadata
 ---
 
