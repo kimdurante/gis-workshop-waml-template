@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Accessioning Data
-nav_order: 5
+nav_order: 6
 ---
 
 ### Staging Data
