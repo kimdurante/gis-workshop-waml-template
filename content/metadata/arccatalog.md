@@ -5,7 +5,7 @@ nav_order: 0
 parent: Metadata
 ---
 
-### Creating Metadata with ArcCatalog
+## Creating Metadata with ArcCatalog
 
 
 [Setting Up ArcCatalog](#Setting-Up-ArcCatalog)  
