@@ -21,15 +21,15 @@ nav_order: 2
 
 ### Creating a Collection Object
 
-* Collection objects are described using either MARC or MODS metadata. If a MARC record already exists in WorkFlows, enhance the record as needed and create a collection from the catKey. MARC metadata are transformed to MODS during creation.
+* Collection objects are described using either MARC or MODS metadata. If a MARC record already exists in WorkFlows, enhance the record as recommended and create a collection from the catKey. MARC metadata are transformed to MODS during creation.
 
-* If no MARC record exists, register the collection using a title and description. Update the MODS (descMetadata) after the object has accessioned. [Detailed instructions for creating a collection object](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+create+and+apply+a+collection+object).
+* If no MARC record exists, create the collection using a title and description. Update the MODS after the object has accessioned.
 
-* A Digital Repository Unique Identifiers (DRUID) will be created for the collection.
+* A Digital Repository Unique Identifier (DRUID) will be created for the collection.
 
 ### Collection-Level Metadata Recommendations
 
-* In addition to common bibliographic elements (creator, publisher, subjects, issue date, etc.) the following MODS/MARC fields are recommended for collections:
+* In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following MODS/MARC fields are recommended for collections:
 
 |Field|MODS|MARC|Example|
 |:-----|:------|:------|:------|
