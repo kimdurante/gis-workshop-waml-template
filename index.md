@@ -9,13 +9,13 @@ These guidelines outline operations for the management of geospatial data and me
 
 ## Data Formats
 
-The following file formats are stored in SDR and SSDI. These formats include WMS/WFS services:
+The following file formats are stored in SDR with both ISO and MODS metadata. These files are delivered through Geoserver:
 
 * Shapefile
 * GeoTIFF
 * ArcGRID
 
-Other formats:
+These formats are stored in SDR with MODS metadata:
 
 * Geodatabase
 * Scanned map
