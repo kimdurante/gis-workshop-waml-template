@@ -7,13 +7,11 @@ has_children: true
 
 ## Preparing Data
 
-* Prior to cataloging and accessioning, it is important to ensure that all data layers meet the necessary requirements in order to function properly within SDR, SSDI, and EarthWorks. 
+* Load all data into a collection folder (directory) that can be connected to ArcCatalog.
 
-* Load all data into a collection directory (folder) that can be connected to ArcGIS.
+* Prior to cataloging/accessioning data, it is important to ensure that all layers meet the necessary requirements in order to function properly within SDR, SSDI, and EarthWorks. Every layer in SDR/EarthWorks must have a valid filename and valid coordinate metadata (geographic extent). Vector and raster data  delivered through GeoServer must include a valid spatial reference system (SRS).
 
 ### Checking Data Properties
-
-* Check that each layer has a valid filename, spatial reference, and geographic extent before accessioning begins. Refer to the instructions for Data Wrangling if you encounter problems with content.
 
 * [Run this script to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py)
 
