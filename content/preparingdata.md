@@ -9,6 +9,8 @@ has_children: true
 
 * Prior to cataloging and accessioning, it is important to ensure that all data layers meet the necessary requirements in order to function properly within SDR, SSDI, and EarthWorks. 
 
+* Load all data into a collection directory (folder) that can be connected to ArcGIS.
+
 ### Checking Data Properties
 
 * Check that each layer has a valid filename, spatial reference, and geographic extent before accessioning begins. Refer to the instructions for Data Wrangling if you encounter problems with content.
