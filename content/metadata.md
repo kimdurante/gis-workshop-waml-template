@@ -4,6 +4,11 @@ title: Metadata
 nav_order: 5
 has_children: true
 ---
+## Metadata
+
+* Metadata for vector and raster data are created in ArcCatalog using the ISO 19139 Metadata Specification. 
+
+* Creating metadata for geospatial data can be an extremely time-consuming process. 
 
 ### Creating ISO 19139/19110 Metadata
 
@@ -15,4 +20,4 @@ has_children: true
 
 ### Creating MODS Metadata
 
-* Geodatabases, GeoPDFs, and other geospatial data use MODS metadata. These metadata are created manually using either spreadsheets or XML files.
+* Geodatabases, GeoPDFs, and other data use MODS metadata. These metadata are created manually using either spreadsheets or XML files.
