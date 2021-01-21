@@ -9,9 +9,13 @@ has_children: true
 
 * Load all data into a collection folder (directory) that can be connected to ArcCatalog.
 
-* Prior to cataloging/accessioning data, it is important to ensure that all layers meet the necessary requirements in order to function properly within SDR, SSDI, and EarthWorks. Every layer in SDR/EarthWorks must have a valid filename and valid coordinate metadata (geographic extent). Vector and raster data  delivered through GeoServer must include a valid spatial reference system (SRS).
+* Ensure that all layers meet the necessary requirements in order to function properly within SDR, SSDI, and EarthWorks. All layers must have a valid filename and valid coordinate metadata (geographic extent). 
+
+* Vector and raster data delivered through GeoServer must include a valid spatial reference system (SRS).
 
 ### Checking Data Properties
+
+* You can inspect data properites for one or more layers using ArcGIS, QGIS, or GDAL/OGR. 
 
 * [Run this script to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py)
 
@@ -26,11 +30,11 @@ has_children: true
 
 ### Registering Data in Argo
 
-* Create a CSV file containing a **SourceID** and a **Label** for each layer in the collection. The Source ID prefix for all GIS layers is '*branner:*' plus an abbreviation for the collection name, followed by an underscore. Append the filename of the layer to the end of this prefix to create the Source ID. (ex. branner: _fmmp12_alameda2012.shp_)
+* Create a CSV file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID prefix for all GIS layers is '*branner:*' plus an abbreviation for the collection name, followed by an underscore. Append the filename to the end of this prefix to create the Source ID. (ex. branner: _fmmp12_alameda2012.shp_)
 
 * The Label is the title of the data layer. If the layer has an existing title, use it. For georeferenced maps, use the original map title plus '(Raster Image)'. Otherwise, create a title using the pattern: *What, Where, When*. (ex. Examples: _Topographical map of the Yosemite Valley and vicinity (Raster Image)_ or _Important Farmland, Alameda County, California, 2012_)
 
-* Format the CSV as shown below, leaving the first and third columns blank. The following layers are from the California Farmland Mapping and Monitoring Program, 2012 collection.
+* Format the CSV as shown below, leaving the first and third columns blank:
 
 ||SOURCEID||LABEL|
 |:----|:----|:----|:----|
@@ -39,6 +43,9 @@ has_children: true
 ||branner:fmmp12_butte2012.shp||Important Farmland, Butte County, California, 2012|
 ||branner:fmmp12_colusa2012.shp||Important Farmland, Colusa County, California, 2012|
 ||branner:fmmp12_contracosta2012.shp||Important Farmland, Contra Costa County, California, 2012|
+
+
+_Example layers from the California Farmland Mapping and Monitoring Program, 2012 collection._
 
 
 * Register the items in Argo under the appropriate APO and Collection using the Content Type **File**. Paste the DRUIDs into the CSV. Save the file.
