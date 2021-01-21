@@ -26,11 +26,11 @@ has_children: true
 
 ### Registering Data in Argo
 
-* Create a spreadsheet containing a **SourceID** and a **Label** for each layer in the collection. The Source ID prefix for all GIS layers is '*branner:*' plus an abbreviation for the collection name, followed by an underscore. Append the filename of the layer to the end of this prefix to create the Source ID. (ex. branner: _fmmp12_alameda2012.shp_)
+* Create a CSV file containing a **SourceID** and a **Label** for each layer in the collection. The Source ID prefix for all GIS layers is '*branner:*' plus an abbreviation for the collection name, followed by an underscore. Append the filename of the layer to the end of this prefix to create the Source ID. (ex. branner: _fmmp12_alameda2012.shp_)
 
 * The Label is the title of the data layer. If the layer has an existing title, use it. For georeferenced maps, use the original map title plus '(Raster Image)'. Otherwise, create a title using the pattern: *What, Where, When*. (ex. Examples: _Topographical map of the Yosemite Valley and vicinity (Raster Image)_ or _Important Farmland, Alameda County, California, 2012_)
 
-* Format the spreadsheet as shown below, leaving the first and third columns blank. The following layers are from the California Farmland Mapping and Monitoring Program, 2012 collection.
+* Format the CSV as shown below, leaving the first and third columns blank. The following layers are from the California Farmland Mapping and Monitoring Program, 2012 collection.
 
 ||SOURCEID||LABEL|
 |:----|:----|:----|:----|
@@ -41,7 +41,7 @@ has_children: true
 ||branner:fmmp12_contracosta2012.shp||Important Farmland, Contra Costa County, California, 2012|
 
 
-* Register the items in Argo under the appropriate APO and Collection using the Content Type **File**. Paste the DRUIDs into the spreadsheet.
+* Register the items in Argo under the appropriate APO and Collection using the Content Type **File**. Paste the DRUIDs into the CSV. Save the file.
 
 ||SOURCEID|DRUID|LABEL|
 |:----|:----|:----|:----|
