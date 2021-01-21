@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Data Wrangling
-nav_order: 0
-parent: Preparing Data
+nav_order: 5
 ---
 
 ## Data Wrangling
