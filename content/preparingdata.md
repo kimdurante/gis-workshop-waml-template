@@ -2,7 +2,6 @@
 layout: default
 title: Preparing Data
 nav_order: 3
-has_children: true
 ---
 
 ## Preparing Data
