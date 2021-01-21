@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Wrangling
-nav_order: 5
+nav_order: 7
 ---
 
 ## Data Wrangling
