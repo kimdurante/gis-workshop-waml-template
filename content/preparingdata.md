@@ -47,7 +47,7 @@ nav_order: 3
 _Example layers from the California Farmland Mapping and Monitoring Program, 2012 collection._
 
 
-* Register the items in Argo under the appropriate APO and Collection using the Content Type **File**. Paste the DRUIDs into the CSV.
+* Register the items in Argo using the APO/Collection and the Content Type **File**. Paste the DRUIDs into the CSV.
 
 ||SOURCEID|DRUID|LABEL|
 |:----|:----|:----|:----|
