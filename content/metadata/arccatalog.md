@@ -107,7 +107,7 @@ Example: alameda2012.shp
 |Distribution Online Name|alameda2012.shp|
 |Feature Catalog Identifier|564c855e-e45a-47dc-b0c4-001839b00864|
 
-Save the file.
+* Save the file.
 
 #### Create a Thumbnail Image
 
@@ -159,15 +159,14 @@ Example: amador2012.shp
 </table>
 </details>
 
+### Autogenerating Metadata
+
+Even a relatively simple collection example like the one above requires lot of manual entry across dozens of files. Using tools to automate input, especially when metadata contain URLs or redundant information, can make processing XML faster and less susceptible to error.
 
 In these examples the first four elements (title, abstract, place keyword, and credit) contain free text referencing the specific county (Alameda, Amador, etc.). The remaining elements are strings containing identifiers or filenames. 
 
 The credit element contains the preferred citation text used MODS (PURL) metadata. In most cases this element can be derived from existing metadata elements: originator, date, title, publisher, and PURL.
 
-
-### Autogenerating Metadata
-
-Even a relatively simple collection example like the one above requires lot of manual entry across dozens of files. Using tools to automate input, especially when metadata contain URLs or redundant information, can make processing XML faster and less susceptible to error.
 
 Create a csv file called ```layers.csv``` containing four columns: FILENAME, DRUID, TITLE, UUID. The filename, title, and DRUID for each layer can be obtained from an Argo report. The UUID column contains the identifier for linking the ISO 19139 and ISO 19110 metadata. [Generate UUIDs here](https://www.uuidgenerator.net).
 
