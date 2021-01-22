@@ -11,9 +11,9 @@ parent: Metadata
 [Setting Up ArcCatalog](#setting-up-arccatalog)  
 [Creating a Collection Template](#creating-a-collection-template)  
 [Importing a Template](#importing-a-template)  
-[Updating Metadata for Individual Layers](#Updating-Metadata-for-Individual-Layers)  
-[Autogenerating Metadata](#Autogenerating-Metadata)  
-[Autogenerating Thumbnail Images](#Autogenerating-Thumbnail-Images)  
+[Updating Metadata for Individual Layers](#updating-metadata-for-individual-layers)  
+[Autogenerating Metadata](#autogenerating-metadata)  
+[Autogenerating Thumbnail Images](#autogenerating-thumbnail-images)  
 
 ### Setting Up ArcCatalog
 
@@ -59,7 +59,16 @@ parent: Metadata
 
 ### Importing a Template
 
-Import the template into each layer using either ArcCatalog (ArcPy/Metadata Importer Tool) or an external script. Note that importing a template will overwrite any existing metadata.
+
+* Import the template into each layer using one of the following methods. Note that importing a template will overwrite any existing metadata.
+
+#### ArcGIS Metadata Importer
+
+
+* The ArcGIS Metadata Importer Tool can import a template into one or more layers using singular or batch import methods. 
+
+* When importing into a single layer select the import type: ```FROM_ARCGIS```.
+
 #### ArcPy
 
 From the Menu bar: ```GeoProcessing > Python```
@@ -74,13 +83,6 @@ Enter the code below. Replace ```C:/PATH/TO/DIRECTORY``` with the correct path:
 >>> for layer in layers:
     arcpy.ImportMetadata_conversion(r"C:/PATH/TO/TEMPLATE/template.xml",FROM_ARCGIS",layer)
 ```
-
-#### ArcGIS Metadata Importer
-
-The Metadata Importer Tool can import a template into one or more layers using singular or batch import methods. 
-When importing into a single layer select the import type: ```FROM_ARCGIS```.
-
-
 
 #### Python
 
