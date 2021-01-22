@@ -8,9 +8,9 @@ parent: Metadata
 ## Creating Metadata with ArcCatalog
 
 
-[Setting Up ArcCatalog](#setting-up-arcCatalog)  
+[Setting Up ArcCatalog](#setting-up-arccatalog)  
 [Creating a Collection Template](#creating-a-collection-template)  
-[Importing a Template](#Importing-a-Template)  
+[Importing a Template](#importing-a-template)  
 [Updating Metadata for Individual Layers](#Updating-Metadata-for-Individual-Layers)  
 [Autogenerating Metadata](#Autogenerating-Metadata)  
 [Autogenerating Thumbnail Images](#Autogenerating-Thumbnail-Images)  
@@ -25,11 +25,13 @@ parent: Metadata
 
 ### Creating a Collection Template
 
-* Make a copy of [this metadata template into the data directory.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/templates/template.xml) 
+* Make a copy of [this metadata template into the data directory.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/templates/template.xml)
 
-* Edit the template with metadata values that are common among all layers. 
+* Open the template and add metadata values that are common among all layers. 
 
 * This is a very straightforward example from the California Farmland Mapping and Monitoring Program, 2012 collection. Many of the values are identical for each shapefile (organization name, theme keywords, temporal extent, update frequency, rights, and attribute definitions). The abstract varies slightly only to specify the name of the county.
+
+
 
 |FIELD|VALUE|
 |:-----|:-----|
