@@ -52,7 +52,7 @@ parent: Metadata
 |Use constraints|This item is in the public domain. There are no restrictions on use.|
 |Aggregate dataset title|California Farmland Mapping and Monitoring Program, 2012|
 |Aggregate dataset identifier|https://purl.stanford.edu/rn450jx3747|
-|Attribute Labels|county_nam<br/>upd_year<br/>polygon_ty</br>|
+|Attribute Labels|county_nam<br/>upd_year<br/>polygon_ty|
 |Attribute Definitions|County name<br/>Update year<br/>Farmland categories: Prime Farmland (P), Farmland of Statewide Importance (S), Unique Farmland (U), Farmland of Local Importance (L), Grazing Land (G), Urban and Built-up Land (D), Other Land (X)|
 
 * Save the template
@@ -65,15 +65,15 @@ parent: Metadata
 #### ArcGIS Metadata Importer
 
 
-* The ArcGIS Metadata Importer Tool can import a template into one or more layers using singular or batch import methods. 
+* ArcGIS Metadata Importer Tool can import a template into one or more layers using singular or batch import methods. 
 
-* When importing into a single layer select the import type: ```FROM_ARCGIS```.
+* When importing into a single layer use the import type: ```FROM_ARCGIS```
 
 #### ArcPy
 
-From the Menu bar: ```GeoProcessing > Python```
+* ArcPy is a much faster alternative to the importer tool. To apply a template to a collection, from the Menu bar: ```GeoProcessing > Python```
 
-Enter the code below. Replace ```C:/PATH/TO/DIRECTORY``` with the correct path:
+* Enter the code below. Replace ```C:/PATH/TO/DIRECTORY``` with the correct path:
 
 ```
 >>> import os, arcpy
@@ -86,9 +86,7 @@ Enter the code below. Replace ```C:/PATH/TO/DIRECTORY``` with the correct path:
 
 #### Python
 
-This is the quickest method. [Copy this Python script into the data directory and run it.](https://github.com/kimdurante/metadataWorkflow/blob/master/scripts/importTemplate.py)
-
-```>>> python importTemplate.py```
+* [This python script can be run from the collection folder.](https://github.com/kimdurante/metadataWorkflow/blob/master/scripts/importTemplate.py). This works the fastest as it is external to ArcGIS.
 
 ### Updating Metadata for Individual Layers
 
