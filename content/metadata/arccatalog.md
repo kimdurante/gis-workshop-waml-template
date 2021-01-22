@@ -113,7 +113,7 @@ Save the file.
 
 * On the Preview tab use the Thumbnail Generator tool to create a thumbnail preview for the layer.
 
-![alameda.jpg](https://github.com/kimdurante/geospatial-data-management/blob/main/content/img/alameda.jpg)
+![alameda.jpg](https://raw.githubusercontent.com/kimdurante/geospatial-data-management/main/content/img/alameda.jpg)
 
 * Open the next layer in the directory and add the individual values.
 
