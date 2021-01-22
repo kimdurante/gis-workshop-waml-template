@@ -86,7 +86,7 @@ parent: Metadata
 
 #### Python
 
-* [This python script can be run from the collection folder.](https://github.com/kimdurante/metadataWorkflow/blob/master/scripts/importTemplate.py). This works the fastest as it is external to ArcGIS.
+* [This python script can be run from the collection folder](https://github.com/kimdurante/metadataWorkflow/blob/master/scripts/importTemplate.py)
 
 ### Updating Metadata for Individual Layers
 
