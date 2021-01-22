@@ -111,11 +111,11 @@ Save the file.
 
 #### Create a Thumbnail Image
 
-On the Preview tab use the Thumbnail Generator tool to create a thumbnail preview for the layer.
+* On the Preview tab use the Thumbnail Generator tool to create a thumbnail preview for the layer.
 
-![alameda.jpg](https://github.com/kimdurante/metadataWorkflow/blob/master/images/alameda.jpg)
+![alameda.jpg](https://github.com/kimdurante/geospatial-data-management/blob/main/content/img/alameda.jpg)
 
-Open the next layer in the directory and add the unique values
+* Open the next layer in the directory and add the individual values.
 
 Example: amador2012.shp
 
