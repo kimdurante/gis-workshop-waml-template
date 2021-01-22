@@ -17,19 +17,20 @@ parent: Metadata
 
 ### Setting Up ArcCatalog
 
-* Open ArcCatalog. Set the Metadata Style to ISO 19139. From the Menu bar:
+* Open ArcCatalog. Connect to the data folder.
+
+* Set the Metadata Style to ISO 19139. From the Menu bar:
 
 ```Customize > ArcCatalog Options > Metadata > ISO 19139 Metadata Implementation Specification```
 
-* Connect to the folder containing the data collection.
 
 ### Creating a Collection Template
 
-* Make a copy of [this metadata template into the data directory.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/templates/template.xml)
+* Copy the [the geoMetadata template](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/templates/template.xml) into the data folder.
 
 * Open the template and add metadata values that are common among all layers. 
 
-* This is a very straightforward example from the California Farmland Mapping and Monitoring Program, 2012 collection. Many of the values are identical for each shapefile (organization name, theme keywords, temporal extent, update frequency, rights, and attribute definitions). The abstract varies slightly only to specify the name of the county.
+* This is a very straightforward example from the California Farmland Mapping and Monitoring Program, 2012 collection. Many of the values are identical for each shapefile (organization name, theme keywords, temporal extent, update frequency, rights, and attribute definitions). The abstract text varies only when specifying the county name.
 
 
 
