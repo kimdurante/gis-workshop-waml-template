@@ -9,7 +9,7 @@ parent: Metadata
 
 
 [Setting Up ArcCatalog](#setting-up-arcCatalog)  
-[Creating a Collection Template](#Creating-a-Collection-Template)  
+[Creating a Collection Template](#creating-a-collection-template)  
 [Importing a Template](#Importing-a-Template)  
 [Updating Metadata for Individual Layers](#Updating-Metadata-for-Individual-Layers)  
 [Autogenerating Metadata](#Autogenerating-Metadata)  
