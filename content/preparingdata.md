@@ -14,7 +14,7 @@ nav_order: 3
 
 ### Checking Data Properties
 
-* You can inspect data properites for one or more layers using ArcGIS, QGIS, or GDAL/OGR. 
+* You can inspect data properites for one or more layers using ArcGIS, GDAL/OGR or QGIS. 
 
 * [Run this script to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py)
 
