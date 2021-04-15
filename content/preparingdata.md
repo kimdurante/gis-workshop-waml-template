@@ -10,7 +10,7 @@ nav_order: 3
 
 * Ensure that all layers meet the necessary requirements in order to function properly within SDR, SSDI, and EarthWorks. All layers must have a valid filename and valid coordinate metadata (geographic extent). 
 
-* Vector and raster data delivered through GeoServer must include a valid spatial reference system (SRS).
+* All vector and raster data delivered through GeoServer must include a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
 
 ### Checking Data Properties
 
