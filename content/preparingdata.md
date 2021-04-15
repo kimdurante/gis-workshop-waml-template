@@ -10,11 +10,11 @@ nav_order: 3
 
 * Ensure that all layers meet the necessary requirements in order to function properly within SDR, SSDI, and EarthWorks. All layers must have a valid filename and valid coordinate metadata (geographic extent). 
 
-* All vector and raster data delivered through GeoServer must include a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
+* All vector and raster data delivered through GeoServer must include a valid spatial reference system (SRS). **Use of the Web Mercator projection (EPSG:3857) is not recommended.**
 
 ### Checking Data Properties
 
-* You can inspect data properites for one or more layers using ArcGIS, GDAL/OGR, or QGIS. 
+* You can inspect data properites for one or more layers using ArcGIS, GDAL/OGR, or QGIS. Data inspection can include viewing data properties or using the Geography view in a GIS program. 
 
 * [Run this script to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py)
 
