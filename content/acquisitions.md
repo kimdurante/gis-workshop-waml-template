@@ -6,7 +6,8 @@ has_children: true
 ---
 ## Acquisitions
 
-Geospatial data is acquired from a wide variety of sources including commercial vendors, open data downloaded from a website/portal, georeferencing projects, or scholarly research data. Data are often acquired at the request of faculty, staff, or students.
+Geospatial datasets are acquired from a wide variety of sources including commercial vendors, open data downloaded from a website/portal, georeferencing projects, or scholarly research data.
 
+Once it is determined that a collection is fit for use, file a JIRA ticket.
 
 ## List of Data Sources
