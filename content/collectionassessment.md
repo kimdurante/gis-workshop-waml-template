@@ -8,12 +8,6 @@ nav_order: 2
 
 * All data layers must belong to at least one collection. The concept of a collection in GIS data management is somewhat vague, it might include data purchased from vendors, a set of georeferenced maps, open data downloaded from a website/portal, or scholarly research data. Collection objects in SDR do not store any data. They contain metadata and rights information which describe the collection contents at a generic level.
 
-### Collection Assessment
-
-* Survey the contents of the collection to check for things such as: type(s) of data, total number of layers, supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
-
-* Consider: What features do the data contain (population statistics, boundaries, geolocated imagery, etc.)? Where they are located (geographic extent)? When were they published and also in what time period are they situated (temporal extent)? Who created and/or published the data? What are the access and use restrictions (rights)? How often are the data updated (edition/version)? 
-
 
 ### Determining Rights - Administrative Policy Objects
 
