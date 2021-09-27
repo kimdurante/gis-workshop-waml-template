@@ -6,13 +6,15 @@ nav_order: 1
 
 ## Assessment
 
-* Survey the contents of the data collection to check for things such as: type(s) of data, file sizes, total number of layers, and supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
+* Survey the contents of the data collection to check for things such as: total number of layers, type(s) of data, file sizes, and supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
 
-* Consider: What features do the data contain (population statistics, boundaries, geolocated imagery, etc.)? Where they are located (geographic extent)? When were they published and also in what time period are they situated (temporal extent)? Who created and/or published the data? How often are the data updated (edition/version)? What are the access and use restrictions (rights)?
-
-## Creating a Collection
-
-* All data layers must belong to at least one collection. 
+* Consider: 
+  * What features do the data contain (population statistics, boundaries, geolocated imagery, etc.)? 
+  * Where they are located (geographic extent)? 
+  * When were they published and also in what time period are they situated (temporal extent)? 
+  * Who created and/or published the data? 
+  * How often are the data updated (edition/version)? 
+  * What are the access and use restrictions (rights)?
 
 ### Determining Rights - Administrative Policy Objects
 
