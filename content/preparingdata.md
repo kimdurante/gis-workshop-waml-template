@@ -8,9 +8,11 @@ nav_order: 3
 
 * Load all data into a collection folder (directory) that can be connected to ArcCatalog.
 
-* Ensure that all layers meet the necessary requirements in order to function properly within SDR, SSDI, and EarthWorks. All layers must have a valid filename and valid coordinate metadata (geographic extent). 
+* All layers must have a valid filename (containing only letters, numbers, or underscores)
 
-* All vector and raster data delivered through GeoServer must include a valid spatial reference system (SRS). **Use of the Web Mercator projection (EPSG:3857) is not recommended.**
+* All layers must include a valid spatial reference system (SRS). **Use of the Web Mercator projection (EPSG:3857) is not recommended.**
+
+* All layers must have valid coordinate metadata (geographic extent). 
 
 ### Checking Data Properties
 
