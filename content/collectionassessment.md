@@ -27,9 +27,9 @@ nav_order: 1
 
 ### Creating a Collection Object
 
-* Collection objects are described using either MARC or MODS metadata. If a MARC record already exists in WorkFlows, enhance the record as recommended and create a collection from the catKey. MARC metadata are transformed to MODS during creation.
+* Collection objects are described using either MARC or MODS metadata. If a MARC record already exists in WorkFlows, enhance the record as recommended and create a collection from the catKey. MARC metadata are transformed to MODS during collection object creation.
 
-* If no MARC record exists, create the collection using a title and description. Update the MODS after the object has accessioned.
+* If no MARC record exists, create a MODS record for the collection using a title and description. Update the MODS after the object has accessioned.
 
 * A Digital Repository Unique Identifier (DRUID) will be created for the collection.
 
