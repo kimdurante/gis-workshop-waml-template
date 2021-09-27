@@ -13,13 +13,13 @@ Geospatial data is any type of data that references a specific geographical area
 
 ## Stanford Spatial Data Infrastructure
 
-The focus of the Stanford Spatial Data Infrastructure (SSDI) is discoverability and dissemination of geospatial data. 
-
-SSDI componenets are SDR, GeoServer, and EarthWorks. 
+The focus of the Stanford Spatial Data Infrastructure (SSDI) is discoverability and dissemination of geospatial data. SSDI componenets are SDR, GeoServer, and EarthWorks. 
 
 All other file formats (geodatabases, geoPDFs, etc.) are stored in SDR with MODS metadata.
 
 ## EarthWorks
+
+EarthWorks is Stanford's discovery portal for geospatial data and maps. This application is a branded implementation of GeoBlacklight, a community-driven software project focused on discovery and access of geographic information. 
 
 
 
