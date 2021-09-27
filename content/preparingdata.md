@@ -6,19 +6,18 @@ nav_order: 3
 
 ## Preparing Data
 
-* Load all data into a collection folder (directory) that can be connected to ArcCatalog.
+* Load all data into a directory (folder) and connect to the folder in ArcCatalog.
 
-* All layers must have a valid filename (containing only letters, numbers, or underscores)
-
-* All layers must include a valid spatial reference system (SRS). **Use of the Web Mercator projection (EPSG:3857) is not recommended.**
-
-* All layers must have valid coordinate metadata (geographic extent). 
+* Inspect one or more layers to ensure that they meet the necessary infrastructure requirements.
 
 ### Checking Data Properties
 
-* You can inspect data properites for one or more layers using ArcGIS, GDAL/OGR, or QGIS. Data inspection can include viewing data properties or using the Geography view in a GIS program. 
+* All layers must have a valid filename (containing only letters, numbers, or underscores)
 
-* [Run this script to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py)
+* All layers must include a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
+
+* All layers must have valid coordinate metadata (geographic extent). 
+
 
 | FILENAME       | SRS   | TYPE |
 | ------------- |-------------|-----------------|
@@ -27,6 +26,8 @@ nav_order: 3
 |arb_california_airdistricts_aligned_03.shp|3310| Polygon|
 |arb_california_counties_aligned_03.shp|3310| Polygon|
 |fed_1hr_coabdis.shp|3310| Polygon|
+
+* [Run this script to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py)
 
 
 ### Registering Data in Argo
