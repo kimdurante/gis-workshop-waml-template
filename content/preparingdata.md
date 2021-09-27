@@ -18,6 +18,10 @@ nav_order: 2
 
 * All layers must have valid coordinate metadata (geographic extent). 
 
+### Creating a Layer List
+
+* [Run this script to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py)
+
 
 | FILENAME       | SRS   | TYPE |
 | ------------- |-------------|-----------------|
@@ -26,8 +30,6 @@ nav_order: 2
 |arb_california_airdistricts_aligned_03.shp|3310| Polygon|
 |arb_california_counties_aligned_03.shp|3310| Polygon|
 |fed_1hr_coabdis.shp|3310| Polygon|
-
-* [Run this script to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py)
 
 
 ### Registering Data in Argo
