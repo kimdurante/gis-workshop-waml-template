@@ -3,7 +3,7 @@ layout: default
 title: Overview
 nav_order: 0
 ---
-# Overview
+## SUL Geospatial Data Management Overview
 
 These guidelines describe geospatial data curation and management operations for the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), and EarthWorks.
 
