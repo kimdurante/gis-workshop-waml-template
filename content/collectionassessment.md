@@ -6,7 +6,7 @@ nav_order: 1
 
 ## Creating a Collection
 
-* All data layers must belong to at least one collection. The concept of a collection in GIS data management is somewhat vague, it might include data purchased from vendors, a set of georeferenced maps, open data downloaded from a website/portal, or scholarly research data. Collection objects in SDR do not store any data. They contain metadata and rights information which describe the collection contents at a generic level.
+* All data layers must belong to at least one collection. A 'collection' of geospatial data might include: data purchased from vendors, a set of georeferenced maps, open data downloaded from a website/portal, or scholarly research data. Collection objects in SDR do not store any data. They contain high-level metadata (descriptive, rights, technical) which describe the contents at a generic level.
 
 ## Assessment
 
@@ -35,7 +35,7 @@ nav_order: 1
 
 ### Collection-Level Metadata Recommendations
 
-* In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following MODS/MARC fields are recommended for collections:
+* In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following MODS/MARC fields should be included:
 
 |Field|MODS|MARC|Example|
 |:-----|:------|:------|:------|
