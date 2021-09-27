@@ -7,15 +7,9 @@ nav_order: 0
 
 These guidelines describe geospatial data curation and management operations for the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), and EarthWorks.
 
-## Geospatial Data
+## Geospatial Data in SDR
 
-Geospatial data is any type of data that references a specific geographical area or location. Geospatial data differ from scanned maps in that it is formatted for Geographic Information Systems (GIS) and other web mapping technologies. Geospatial data exists in either one of two formats, vector or raster. 
-
-## Stanford Spatial Data Infrastructure
-
-The focus of the Stanford Spatial Data Infrastructure (SSDI) is discoverability and dissemination of geospatial data. SSDI componenets are SDR, GeoServer, and EarthWorks. 
-
-All other file formats (geodatabases, geoPDFs, etc.) are stored in SDR with MODS metadata.
+Geospatial data are stored in the Stanford Digital Repository (SDR), in either vector or raster format. Geospatial data are archived in SDR and made available for download, or accessed through Stanford's GeoServer using Web Mapping Services/Web Feature Services (WMS/WFS).
 
 ## EarthWorks
 
