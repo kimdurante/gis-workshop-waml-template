@@ -13,7 +13,7 @@ Geospatial data are stored in SDR in either vector or raster format. Layers are 
 
 ## EarthWorks
 
-EarthWorks is Stanford's federated search portal for geospatial data and maps. This application is implemented using GeoBlacklight, a community-driven software project focused on discovery and access of geographic information.
+EarthWorks is Stanford's federated search catalog for geospatial data and maps. This application is implemented using GeoBlacklight, a community-driven software project focused on discovery and access of geographic information.
 
 
 
