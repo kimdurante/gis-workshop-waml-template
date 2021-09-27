@@ -5,7 +5,7 @@ nav_order: 4
 ---
 ## SDR Accessioning and EarthWorks Indexing
 
-Once metadata have been completed for all layers, the files need to be organized and staged for accessioning.
+Staging files for accessioning.
 
 ### Staging Data
 
