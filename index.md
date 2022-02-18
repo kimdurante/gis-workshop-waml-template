@@ -19,7 +19,7 @@ Geospatial data are of two types - raster and vector. Raster data are composed o
 - GeoTiFF
 - ArcGRID
 
-See [Format Descriptions for Geospatial Data](https://www.loc.gov/preservation/digital/formats/fdd/gis_fdd.shtml) for a list of geospatial data foramts.
+See [Format Descriptions for Geospatial Data](https://www.loc.gov/preservation/digital/formats/fdd/gis_fdd.shtml) for a list of geospatial data formats.
 
 
 
