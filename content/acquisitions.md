@@ -33,13 +33,9 @@ Survey the contents of the collection to check for things such as: total number 
 
 * Load all data into a directory (folder) and connect to the folder in ArcCatalog.
 
-* Inspect one or more layers to ensure that they meet the necessary infrastructure requirements.
+* Ensure that all layers have a valid filename (containing only letters, numbers, or underscores)
 
-### Checking Data Properties ###
-
-* All layers must have a valid filename (containing only letters, numbers, or underscores)
-
-* All layers must include a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
+* Ensure that all layers have a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
 
 * All layers must have valid coordinate metadata (geographic extent). 
 
