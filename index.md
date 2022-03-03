@@ -9,7 +9,15 @@ These guidelines describe geospatial data curation workflowa for the Stanford Di
 
 ## Geospatial Data ## 
 
-Geospatial data are of two types - raster and vector. Raster data are composed of grid cells identified by row and column. Vector data are composed of points, polylines, and polygons. Raster and vector data are containerized in one of many formats. The [GIS Data workflows](https://github.com/sul-dlss/gis-robot-suite) are currently configured to work with the following formats:
+Geospatial data contain relative geographic information about a place and its features. 
+
+### Types ###
+
+Data are of two types - raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
+
+### Formats ###
+
+Geospatial data formats are containers that are used for encoding and exchagning geographic information. Data formats store and organize references relating to entities and events (locations, dates, etc.). Formats also determine how the data can be used. The [Geospatial Data workflows](https://github.com/sul-dlss/gis-robot-suite) at SUL currently accept the following formats:
 
 - Shapefile 
 - GeoTiFF
