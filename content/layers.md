@@ -17,11 +17,7 @@ Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/
 
 ### Creating a File Manifest
 
-Create a CSV file containing a **SourceID** and a **Label** for each layer in the collection. 
-
-The SourceID contains a prefix and a filename. The prefix consists of '*branner:*' followed by an abbreviation of the collection name followed by an underscore. The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*).
-
-The Label is the title of the data layer. 
+Create a CSV file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID contains a prefix and a filename. The prefix consists of '*branner:*' followed by an abbreviation of the collection name followed by an underscore. The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
 
 Format the CSV as shown below, leaving the first and third columns blank:
 
