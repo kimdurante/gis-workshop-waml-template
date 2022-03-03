@@ -6,12 +6,11 @@ nav_order: 2
 
 ## Collections Workflow
 
-
-All data layers must be governed by an Administrative Policy Object (APO) and they must all belong to at least one collection. Collections in SDR do not store geospatial data. They provide rights functionality, high-level description, and browsability. 
+All data layers must be governed by an Administrative Policy Object, and must belong to at least one collection. Collections in SDR do not store geospatial data. They provide rights functionality, high-level description, and browsability. 
 
 ### Administrative Policy Objects
 
-Access to collections and data is governed by an Administrative Policy Object. APOs provide If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
+Access to data is governed by an Administrative Policy Object (APO). An APO controls who can view/download the data. Data layers are either world (public) or stanford (restricted). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
 ### Collection-Level Metadata
 
