@@ -17,13 +17,7 @@ Data often are acquired as 'collections', meaning they contain multiple layers r
 
 ## Assessment ##
 
-Load all data into a folder named for the collection. Ensure that all geospatial data layers have:
-
-* a valid filename (containing only letters, numbers, or underscores)
-* a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
-* coordinate metadata (geographic extent). 
-
-Survey the collection to check for things such as: 
+Load all data into a folder named for the collection. Survey the collection to check for things such as: 
 * total number of layers
 * data types/formats
 * file sizes
