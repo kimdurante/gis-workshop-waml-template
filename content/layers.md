@@ -44,5 +44,3 @@ Register the items in Argo using the relevant APO and Collection. Use Content Ty
 ||branner:fmmp12_butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|
 ||branner:fmmp12_colusa2012.shp|rc560ns7872|Important Farmland, Colusa County, California, 2012|
 ||branner:fmmp12_contracosta2012.shp|rc560ns7872|Important Farmland, Contra Costa County, California, 2012|
-
-* Save the file (ex. _layers.csv_). This can used to generate metadata during cataloging.
