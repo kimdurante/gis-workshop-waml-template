@@ -13,13 +13,19 @@ SUL acquires geospatial data from a number of sources, including:
 * Scholarly research
 * Special projects and support initiaitves
 
-Data often are acquired as 'collections', meaning they contain multiple layers relating to a common theme, place, or event. It is useful to identify these similarities by performing an assessment of the data and/or opening files in a GIS.
+Data often are acquired as 'collections', meaning they contain multiple layers relating to a common theme, place, or event. It is crucial to understand what access and use restrictions apply before downloading and distributing data. This may require consultation with the data provider or publisher. It is useful to identify rights information and other similarities by performing an assessment of the data and/or opening files in a GIS.
 
-It is crucial to understand what access and use restrictions apply to the data before downloading and distributing it. This may require consultation with the data provider or publisher.
+## Preparing Data ##
+
+Load all data into a folder named for the collection. Ensure that all geospatial data layers have:
+
+* a valid filename (containing only letters, numbers, or underscores)
+* a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
+* coordinate metadata (geographic extent). 
 
 ## Assessment ##
 
-Load all data into a folder named for the collection. Survey the contents of the collection to check for things such as: total number of layers, data types/formats, file sizes, and supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
+Survey the collection to check for things such as: total number of layers, data types/formats, file sizes, and supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
 
 Consider: 
 * What features do the data contain (population statistics, boundaries, geolocated imagery, etc.)? 
@@ -29,13 +35,6 @@ Consider:
 * How often are the data updated (edition/version)? 
 * What are the access and use restrictions (rights)?
 
-## Preparing Data ##
-
-Ensure that all layers have:
-
-* a valid filename (containing only letters, numbers, or underscores)
-* a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
-* coordinate metadata (geographic extent). 
 
 ### Creating a Layer List ###
 
