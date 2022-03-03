@@ -13,15 +13,17 @@ Geospatial data contain relative geographic information about a place and its fe
 
 ### Types ###
 
-Data are of two types - raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
+Geospatial data are of two types - raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
 
 ### Formats ###
 
-Geospatial data formats are containers that are used for encoding and exchagning geographic information. Data formats store and organize references relating to entities and events (locations, dates, etc.). Formats also determine how the data can be used. The [Geospatial Data workflows](https://github.com/sul-dlss/gis-robot-suite) at SUL currently accept the following formats:
+Geospatial data formats are containers used for encoding and exchagning geographic information. Data formats store and organize references about entities and events (locations, dates, etc.).Formats also determine how the data can be used. The [Geospatial Data workflows](https://github.com/sul-dlss/gis-robot-suite) at SUL currently work with the following formats:
 
-- Shapefile 
-- GeoTiFF
-- ArcGRID
+ * Shapefile 
+   Shapefiles have traditionally been the standard format for vector data and can be read by almost all GIS systems. Shapefiles are comprised of at least 3 parts with same prefix name the following extensions:    shp, dbf, shx. Other files, such as .prj or cpg may be present. All files must be saved in the same workspace (folder).
+   
+ * GeoTiFF
+ * ArcGRID
 
 See [Format Descriptions for Geospatial Data](https://www.loc.gov/preservation/digital/formats/fdd/gis_fdd.shtml) for a list of geospatial data formats.
 
