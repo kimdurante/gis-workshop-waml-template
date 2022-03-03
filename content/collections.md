@@ -4,7 +4,7 @@ title: Collections
 nav_order: 2
 ---
 
-## Collections
+## Collections Workflow
 
 All data layers must be governed by an Administrative Policy Object, and must belong to at least one collection. Collections in SDR do not store geospatial data. They provide rights functionality, high-level description, and browsability. 
 
