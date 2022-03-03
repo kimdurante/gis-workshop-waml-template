@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acquisitions
-nav_order: 7
+nav_order: 1
 ---
 
 ## Acquisitions Workflow ##
