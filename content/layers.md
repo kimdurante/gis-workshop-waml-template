@@ -35,7 +35,9 @@ Format the CSV as shown below, leaving the first and third columns blank:
 _Example layers from the California Farmland Mapping and Monitoring Program, 2012 collection._
 
 
-* Register the items in Argo using the APO/Collection and the Content Type **File**. Paste the DRUIDs into the CSV.
+### Registering Data in Argo
+
+Register the items in Argo using the relevant APO and Collection. Use Content Type **File**.
 
 ||SOURCEID|DRUID|LABEL|
 |:----|:----|:----|:----|
