@@ -7,7 +7,7 @@ nav_order: 0
 
 These guidelines describe geospatial data curation workflows for the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), [EarthWorks](https://earthworks.stanford.edu) and [SearchWorks](https://searchworks.stanford.edu).
 
-SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) are designed to support preservation, access, and discovery of geospatial data at the layer-level. Every data layer (e.g. shapefile) is identiifed by its own DRUID and can be accessed through a number of applications including: PURL, EarthWorks, SearchWorks, GeoServer, and WMS/WFS.
+SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) support the preservation, access, and discovery of geospatial data at the layer-level. Every data layer (e.g. shapefile) is identiifed by its own DRUID and can be accessed through a number of applications including: PURL, EarthWorks, SearchWorks, GeoServer, and WMS/WFS.
 
 ## Geospatial Data ## 
 
@@ -22,18 +22,6 @@ The GIS robots currently accept the following file formats:
  * GeoTiFF - a raster format used for storing georeferencing/geocoding information in a TIFF file by tying a raster image to a space or map projection. GeoTIFFs must contain at least one file with the extension *.tif*. GeoTIFFs may be accompanied by other files with the same name and the following extensions: *.prj*, *.aux*, *.ovr*, *.tfw*.*.tif.xml*.
 
  * ArcGRID - a raster format that defines geographic space as an array of equally sized square grid points arranged in rows and columns. Each grid point stores a numeric value that represents a geographic attribute for that unit of space. ArcGRID files contain many files in at least two directories: the name directory and an info directory. Metadata for ArcGRIDs are always stored in a file named *metadata.xml*
-   
-## Acquisitions ## 
-
-SUL acquires geospatial data though a number of channels, including:
-
-* Licensed data contracted or purchased from vendors.
-
-* Open data
-
-* Research data
-
-* Projects
 
 
 
