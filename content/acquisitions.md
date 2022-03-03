@@ -34,11 +34,3 @@ Consider:
 * What are the access and use restrictions (rights)?
 
 
-### Creating a Layer List ###
-
-* Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
-
-
-
-
-
