@@ -4,7 +4,7 @@ title: Layers
 nav_order: 2
 ---
 
-## Layer-Level Data Workflows
+## Layer-Level Data Workflow
 
 Ensure that all geospatial data layers have:
 
