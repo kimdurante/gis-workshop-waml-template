@@ -1,24 +1,12 @@
 ---
 layout: default
-title: Creating a Collection
+title: Collections
 nav_order: 1
 ---
 
 ## Creating a Collection
 
 * All data layers must belong to at least one collection. A 'collection' of geospatial data might include: data purchased from vendors, a set of georeferenced maps, open data downloaded from a website/portal, or scholarly research data. Collection objects in SDR do not store any data. They contain high-level metadata (descriptive, rights, technical) which describe the contents at a generic level.
-
-## Assessment
-
-* Survey the contents of the data collection to check for things such as: total number of layers, type(s) of data, file sizes, and supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
-
-* Consider: 
-  * What features do the data contain (population statistics, boundaries, geolocated imagery, etc.)? 
-  * Where they are located (geographic extent)? 
-  * When were they published and also in what time period are they situated (temporal extent)? 
-  * Who created and/or published the data? 
-  * How often are the data updated (edition/version)? 
-  * What are the access and use restrictions (rights)?
 
 ### Determining Rights - Administrative Policy Objects
 
