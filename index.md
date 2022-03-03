@@ -11,15 +11,11 @@ These guidelines describe geospatial data curation workflows for the Stanford Di
 
 Geospatial data contain relative geographic information about a place and its features. 
 
-### Types ###
+Types -Geospatial data are of two types, raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
 
-Geospatial data are of two types - raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
+Formats - Geospatial data file formats are containers used for encoding and exchanging geographic information. File formats store and organize references about entities and events (locations, dates, etc.). Formats also determine how the data can be used. 
 
-### Formats ###
-
-Geospatial data file formats are containers used for encoding and exchanging geographic information. File formats store and organize references about entities and events (locations, dates, etc.). Formats also determine how the data can be used. 
-
-SUL's [Geospatial data curation workflows](https://github.com/sul-dlss/gis-robot-suite) currently operate on the following file formats:
+SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) currently operate on the following file formats:
 
  * Shapefile - a widely-used format for vector data which can be read by almost all GIS systems. Shapefiles are comprised of at least 3 files with the same name and the following extensions: *.shp*, *.dbf*, *.shx*. Other files, such as *.prj*,*.cpg*, or *.shp.xml* may be present. All files must be saved in the same workspace (folder).
    
@@ -27,7 +23,7 @@ SUL's [Geospatial data curation workflows](https://github.com/sul-dlss/gis-robot
 
  * ArcGRID - a raster format that defines geographic space as an array of equally sized square grid points arranged in rows and columns. Each grid point stores a numeric value that represents a geographic attribute for that unit of space. ArcGRID files contain many files in at least two directories: the name directory and an info directory. Metadata for ArcGRIDs are always stored in a file title *metadada.xml*
    
-## Geospatial Data Acquisitions ## 
+## Acquisitions ## 
 
 SUL acquires geospatial data though a number of channels, including:
 
