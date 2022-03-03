@@ -44,3 +44,11 @@ Register the items in Argo using the relevant APO and Collection. Use Content Ty
 ||branner:fmmp12_butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|
 ||branner:fmmp12_colusa2012.shp|rc560ns7872|Important Farmland, Colusa County, California, 2012|
 ||branner:fmmp12_contracosta2012.shp|rc560ns7872|Important Farmland, Contra Costa County, California, 2012|
+
+### Creating Metadata
+
+Creating metadata for geospatial data can be an extremely time-consuming process. Automation is recommended wherever possible, however workflow steps may vary depending on the complexities of the data.
+
+Metadata for vector and raster data are created in ArcCatalog using the ISO 19139 Metadata Specification. ISO 19110 Metadata describing feature catalogs (data attributes) are generated for vector data. Metadata for shapefiles and geoTIFFs are recognizable by their file extensions *.shp.xml* and *tif.xml*. Metadata for GRID files will always be named *metadata.xml*.
+
+Metadata are created in the ArcGIS metadata format and transformed into ISO 19139, ISO 19110, MODS, and GeoBlacklight.
