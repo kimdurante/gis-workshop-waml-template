@@ -20,6 +20,7 @@ Geospatial data are of two types - raster and vector. Raster data are composed o
 Geospatial data formats are containers used for encoding and exchagning geographic information. Data formats store and organize references about entities and events (locations, dates, etc.).Formats also determine how the data can be used. The [Geospatial Data workflows](https://github.com/sul-dlss/gis-robot-suite) at SUL currently work with the following formats:
 
  * Shapefile 
+   
    Shapefiles have traditionally been the standard format for vector data and can be read by almost all GIS systems. Shapefiles are comprised of at least 3 parts with same prefix name the following extensions:    shp, dbf, shx. Other files, such as .prj or cpg may be present. All files must be saved in the same workspace (folder).
    
  * GeoTiFF
