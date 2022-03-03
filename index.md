@@ -9,6 +9,18 @@ These guidelines describe geospatial data curation workflows for the Stanford Di
 
 SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) support the preservation, access, and discovery of geospatial data at the layer-level. Every data layer (e.g. shapefile) is identiifed by its own DRUID and can be accessed through a number of applications including: PURL, EarthWorks, SearchWorks, GeoServer, and WMS/WFS.
 
+## Workflows ##
+
+Geospatial data curation workflows overview
+
+| Workflow  | Description |
+| ------------- | ------------- |
+| Acquisitions  | Content Cell  |
+| Collections  | Content Cell  |
+| Layers  | Content Cell  |
+| Accessioning  | Content Cell  |
+| Publishing  | Content Cell  |
+
 ## Geospatial Data ## 
 
 Geospatial data are of two types: raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
