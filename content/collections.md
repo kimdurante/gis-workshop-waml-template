@@ -8,6 +8,10 @@ nav_order: 2
 
 All data layers must belong to at least one collection. Collections in SDR do not store geospatial data. They provide rights functionality, high-level description, and browsability. 
 
+### Determining Rights - Administrative Policy Objects
+
+Access to collections and data layers is governed by an Administrative Policy Object (APO). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
+
 ### Collection-Level Metadata
 
 Collection-level records are created using either MARC or MODS metadata. This often depends on how or when the collection was acquired. Data purchased through traditional library acquisitions channels tend to originate in Symphony (WorkFlows), and thus use MARC as their source metadata. MODS metadata are increasingly used to describe digital collections. Either method is acceptable. If a MARC record already exists in WorkFlows, enhance the record as recommended below. If no MARC record exists, create a MODS record using a title and description and update the record after the collection has been created.
@@ -24,8 +28,3 @@ In addition to common bibliographic elements (creator, publisher, subjects, publ
 Example Collection PURL (from MARC): [https://purl.stanford.edu/qf529ms0562](https://purl.stanford.edu/qf529ms0562)
 
 Example Collection PURL (from MODS): [https://purl.stanford.edu/fy405sm5009](https://purl.stanford.edu/fy405sm5009)
-
-### Determining Rights - Administrative Policy Objects
-
-Access to collections and data layers is governed by an Administrative Policy Object (APO). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
-
