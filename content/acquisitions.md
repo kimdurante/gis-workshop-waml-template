@@ -13,7 +13,9 @@ SUL acquires geospatial data from a number of sources, including:
 * Scholarly research
 * Special projects and support initiaitves
 
-Data often are acquired as 'collections', meaning they contain multiple layers relating to a common theme, place, or event. It is crucial to understand what access and use restrictions apply before downloading and distributing data and may require consultation with the data provider or publisher. Rights information and other similarities amongst the data can sometimes be gathered by performing an assessment of the collection and/or examining files in a GIS.
+Data often are acquired as 'collections', meaning they contain multiple layers relating to a common theme, place, or event. 
+
+It is crucial to understand what access and use restrictions apply before downloading and distributing data and may require consultation with the data provider or publisher. Rights information and other similarities amongst the data can sometimes be gathered by performing an assessment of the collection and/or examining files in a GIS.
 
 ## Assessment
 
