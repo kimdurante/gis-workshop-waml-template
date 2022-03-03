@@ -4,18 +4,17 @@ title: Collections
 nav_order: 1
 ---
 
-## Creating a Collection
+## Geospatial Data Collections
 
-* All data layers must belong to at least one collection. A 'collection' of geospatial data might include: data purchased from vendors, a set of georeferenced maps, open data downloaded from a website/portal, or scholarly research data. Collection objects in SDR do not store any data. They contain high-level metadata (descriptive, rights, technical) which describe the contents at a generic level.
-
+* All data layers must belong to at least one collection. Collection objects in SDR do not store geospatial data. They allow for such things as browsing within collections, and rights/access management.
+* 
 ### Determining Rights - Administrative Policy Objects
 
-* All collections and data layers must be governed by an Administrative Policy Object (APO). Locate the appropriate APO from [this list of Admin Policies](https://argo.stanford.edu/catalog/facet/nonhydrus_apo_title_ssim). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
+* Access to collections and data layers is governed by an Administrative Policy Object (APO). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
+### Creating a Collection
 
-### Creating a Collection Object
-
-* Collection objects are described using either MARC or MODS metadata. If a MARC record already exists in WorkFlows, enhance the record as recommended and create a collection from the catKey. MARC metadata are transformed to MODS during collection object creation.
+* Depending on how the data is acquired, Collection objects are described using either MARC or MODS metadata. If a MARC record already exists in WorkFlows, enhance the record as recommended and create a collection from the catKey. MARC metadata are transformed to MODS during collection object creation.
 
 * If no MARC record exists, create a MODS record for the collection using a title and description. Update the MODS after the object has accessioned.
 
