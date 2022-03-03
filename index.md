@@ -21,9 +21,12 @@ Geospatial data formats are containers used for encoding and exchagning geograph
 
  * Shapefile 
    
-   Shapefile is a widely-used format for vector data which can be read by almost all GIS systems. Shapefiles are comprised of at least 3 parts with same filename prefix and the following extensions: *.shp*, *.dbf*, *.shx*. Other files, such as *.prj* or *.cpg* may be present. All files must be saved in the same workspace (folder).
+   Shapefile is a widely-used format for vector data which can be read by almost all GIS systems. Shapefiles are comprised of at least 3 files with the same name and the following extensions: *.shp*, *.dbf*, *.shx*. Other files, such as *.prj*,*.cpg*, or *.shp.xml* may be present. All files must be saved in the same workspace (folder).
    
  * GeoTiFF
+
+GeoTIFF is format used for storing georeference and geocoding information in a TIFF file by tying a raster image to a space or map projection. GeoTIFFs must contain at least one file with the extension *.tif*. GeoTIFFs may be accompanied by other files with the same name and the following extensions: *.prj*, *.aux*, *.ovr*, *.tfw*.*.tif.xml* All files must be saved in the same workspace (folder).
+
  * ArcGRID
 
 See [Format Descriptions for Geospatial Data](https://www.loc.gov/preservation/digital/formats/fdd/gis_fdd.shtml) for a list of geospatial data formats.
