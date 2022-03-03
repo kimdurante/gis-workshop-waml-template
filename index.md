@@ -5,7 +5,7 @@ nav_order: 0
 ---
 ## Geospatial Data Management at SUL ##
 
-These guidelines describe geospatial data curation and management operations for the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), [EarthWorks](https://earthworks.stanford.edu) and [SearchWorks](https://searchworks.stanford.edu).
+These guidelines describe geospatial data curation workflowa for the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), [EarthWorks](https://earthworks.stanford.edu) and [SearchWorks](https://searchworks.stanford.edu).
 
 ## Geospatial Data ## 
 
