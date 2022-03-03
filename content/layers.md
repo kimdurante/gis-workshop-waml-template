@@ -12,7 +12,7 @@ Ensure that all geospatial data layers have:
 * a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
 * coordinate metadata (geographic extent). 
 
-* Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
+Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
 
 
 ### Creating a File Manifest
