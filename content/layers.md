@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Preparing Data
+title: Layers
 nav_order: 2
 ---
 
-## Preparing Data
+## Layer-Level Data Workflows
 
 * Load all data into a directory (folder) and connect to the folder in ArcCatalog.
 
