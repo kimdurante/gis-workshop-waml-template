@@ -7,15 +7,17 @@ nav_order: 0
 
 These guidelines describe geospatial data curation workflows for the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), [EarthWorks](https://earthworks.stanford.edu) and [SearchWorks](https://searchworks.stanford.edu).
 
+SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) are designed to support the layer-level preservation, access, and discovery of geospatial data. Every data layer (shapefile, geotiff, etc.) is identiifed by its own DRUID and can be accessed through a number of applications including: PURL, EarthWorks, SearchWorks, GeoServer, and WMS/WFS.
+
 ## Geospatial Data ## 
 
-Geospatial data contain relative geographic information about a place and its features. 
+Geospatial data contain relative geographic information about a place and its features.
 
 Types -Geospatial data are of two types, raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
 
 Formats - Geospatial data file formats are containers used for encoding and exchanging geographic information. File formats store and organize references about entities and events (locations, dates, etc.). Formats also determine how the data can be used. 
 
-SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) currently operate on the following file formats:
+The GIS robots currently accept the following file formats:
 
  * Shapefile - a widely-used format for vector data which can be read by almost all GIS systems. Shapefiles are comprised of at least 3 files with the same name and the following extensions: *.shp*, *.dbf*, *.shx*. Other files, such as *.prj*,*.cpg*, or *.shp.xml* may be present. All files must be saved in the same workspace (folder).
    
