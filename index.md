@@ -25,12 +25,11 @@ Geospatial data formats are containers used for encoding and exchagning geograph
    
  * GeoTiFF
 
-GeoTIFF is format used for storing georeference and geocoding information in a TIFF file by tying a raster image to a space or map projection. GeoTIFFs must contain at least one file with the extension *.tif*. GeoTIFFs may be accompanied by other files with the same name and the following extensions: *.prj*, *.aux*, *.ovr*, *.tfw*.*.tif.xml* All files must be saved in the same workspace (folder).
+GeoTIFF is format used for storing georeference and geocoding information in a TIFF file by tying a raster image to a space or map projection. GeoTIFFs must contain at least one file with the extension *.tif*. GeoTIFFs may be accompanied by other files with the same name and the following extensions: *.prj*, *.aux*, *.ovr*, *.tfw*.*.tif.xml*. All files must be saved in the same workspace (folder).
 
  * ArcGRID
 
-See [Format Descriptions for Geospatial Data](https://www.loc.gov/preservation/digital/formats/fdd/gis_fdd.shtml) for a list of geospatial data formats.
-
+ArcGRID is a raster format that defines geographic space as an array of equally sized square grid points arranged in rows and columns. Each grid point stores a numeric value that represents a geographic attribute for that unit of space. ArcGRID files contain many files in at least two directories: the name directory and an info directory. Metadata for ArcGRIDs are always stored in a file title *metadada.xml*
 
 
 
