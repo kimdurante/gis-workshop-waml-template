@@ -19,9 +19,7 @@ It is crucial to understand what access and use restrictions apply to the data b
 
 ## Assessment ##
 
-
-* Load all data into a folder named for the collection
-* Survey the contents of the collection to check for things such as: total number of layers, data types/formats, file sizes, and supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
+Load all data into a folder named for the collectionSurvey the contents of the collection to check for things such as: total number of layers, data types/formats, file sizes, and supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
 
 * Consider: 
   * What features do the data contain (population statistics, boundaries, geolocated imagery, etc.)? 
