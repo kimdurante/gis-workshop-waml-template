@@ -3,7 +3,7 @@ layout: default
 title: Accessioning Data
 nav_order: 4
 ---
-## SDR Accessioning and EarthWorks Indexing
+## Accessioning Workflow
 
 Staging files for accessioning.
 
