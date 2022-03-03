@@ -6,23 +6,11 @@ nav_order: 2
 
 ## Collections Workflow
 
-All data layers must belong to at least one collection. Collection objects in SDR do not store geospatial data. They allow for such things as browsing within collections, and rights/access management.
-
-### Determining Rights - Administrative Policy Objects
-
-Access to collections and data layers is governed by an Administrative Policy Object (APO). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
+All data layers must belong to at least one collection. Collection objects in SDR do not store geospatial data. They provide rights functionality, high-level description, and browsability. 
 
 ### Collection-Level Metadata
 
-Metadata for collections is created using either MARC or MODS metadata. This often depends on how or when the collection was acquired. Data purchased through traditional library acquisitions channels tend to originate in Symphony (WorkFLows), and thus use MARC as their source metadata. MODS metadata are increasingly used to describe digital collections and items. 
-
-If a MARC record already exists in WorkFlows, enhance the record as recommended and create a collection from the catKey. MARC metadata are transformed to MODS during collection object creation.
-
-* If no MARC record exists, create a MODS record for the collection using a title and description. Update the MODS after the object has accessioned.
-
-* A Digital Repository Unique Identifier (DRUID) will be created for the collection.
-
-### Collection-Level Metadata Recommendations
+Collection-level records are created using either MARC or MODS metadata. This often depends on how or when the collection was acquired. Data purchased through traditional library acquisitions channels tend to originate in Symphony (WorkFlows), and thus use MARC as their source metadata. MODS metadata are increasingly used to describe digital collections. Either method is acceptable.
 
 * In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following MODS/MARC fields should be included:
 
@@ -33,7 +21,18 @@ If a MARC record already exists in WorkFlows, enhance the record as recommended 
 |Genre|genre authority="lcgft"|655 (ind1='7'), (sub2='lcgft')|Geospatial data|
 |Coordinates|subject/cartographics/coordinates|255|(W 121.4851--W 120.3878/N 038.0775--N 037.1347)|
 
+If a MARC record already exists in WorkFlows, enhance the record as recommended and create a collection from the catKey. MARC metadata are transformed to MODS during collection object creation.
+
+* If no MARC record exists, create a MODS record for the collection using a title and description. Update the MODS after the object has accessioned.
+
+* A Digital Repository Unique Identifier (DRUID) will be created for the collection.
+
+
 * Example Collection PURL (from MARC): [https://purl.stanford.edu/qf529ms0562](https://purl.stanford.edu/qf529ms0562)
 
 * Example Collection PURL (from MODS): [https://purl.stanford.edu/fy405sm5009](https://purl.stanford.edu/fy405sm5009)
+
+### Determining Rights - Administrative Policy Objects
+
+Access to collections and data layers is governed by an Administrative Policy Object (APO). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
