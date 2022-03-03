@@ -6,11 +6,12 @@ nav_order: 2
 
 ## Collections Workflow
 
-All data layers must belong to at least one collection. Collections in SDR do not store geospatial data. They provide rights functionality, high-level description, and browsability. 
 
-### Determining Rights - Administrative Policy Objects
+All data layers must be governed by an Administrative Policy Object (APO) and they must all belong to at least one collection. Collections in SDR do not store geospatial data. They provide rights functionality, high-level description, and browsability. 
 
-Access to collections and data layers is governed by an Administrative Policy Object (APO). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
+### Administrative Policy Objects
+
+Access to collections and data is governed by an Administrative Policy Object. APOs provide If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
 ### Collection-Level Metadata
 
@@ -18,7 +19,7 @@ Collection-level records are created using either MARC or MODS metadata. This of
 
 In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following fields should be included for geospatial data:
 
-|Field|MODS|MARC|Example|
+|Field|MODS|MARC|Value|
 |:-----|:------|:------|:------|
 |Genre|genre authority="rdacontent"|336 (sub2='rdacontent')|cartographic dataset|
 |Genre|genre authority="local"|655 (ind1='7'), (sub2='local')|Geographic information systems data|
