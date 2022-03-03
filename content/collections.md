@@ -10,7 +10,7 @@ All data layers must belong to at least one collection. Collections in SDR do no
 
 ### Collection-Level Metadata
 
-Collection-level records are created using either MARC or MODS metadata. This often depends on how or when the collection was acquired. Data purchased through traditional library acquisitions channels tend to originate in Symphony (WorkFlows), and thus use MARC as their source metadata. MODS metadata are increasingly used to describe digital collections. Either method is acceptable. If a MARC record already exists in WorkFlows, enhance the record as recommended below. If no MARC record exists, create a MODS record using a title and description and update the record after the collection has been created. A DRUID will be created for the collection.
+Collection-level records are created using either MARC or MODS metadata. This often depends on how or when the collection was acquired. Data purchased through traditional library acquisitions channels tend to originate in Symphony (WorkFlows), and thus use MARC as their source metadata. MODS metadata are increasingly used to describe digital collections. Either method is acceptable. If a MARC record already exists in WorkFlows, enhance the record as recommended below. If no MARC record exists, create a MODS record using a title and description and update the record after the collection has been created.
 
 In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following fields should be included for geospatial data:
 
