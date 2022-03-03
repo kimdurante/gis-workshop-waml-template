@@ -9,11 +9,8 @@ nav_order: 7
 SUL acquires geospatial data from a number of sources, including:
 
 * Commercial vendors
-
 * Public data providers
-
 * Scholarly research
-
 * Special projects and support initiaitves
 
 Data often are acquired as 'collections', meaning they contain multiple layers relating to a common theme, place, or event. It is useful to identify the commonalities among the data by performing an assessment of the data and/or opening files in a GIS.
