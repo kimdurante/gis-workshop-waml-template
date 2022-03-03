@@ -23,7 +23,11 @@ Load all data into a folder named for the collection. Ensure that all geospatial
 * a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
 * coordinate metadata (geographic extent). 
 
-Survey the collection to check for things such as: total number of layers, data types/formats, file sizes, and supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
+Survey the collection to check for things such as: 
+* total number of layers
+* data types/formats
+* file sizes
+* supplemental files (codebooks or csv/text/PDF/html documents containing metadata and other information)
 
 Consider: 
 * What features do the data contain (population statistics, boundaries, geolocated imagery, etc.)? 
