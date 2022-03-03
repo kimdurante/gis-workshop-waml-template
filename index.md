@@ -7,15 +7,13 @@ nav_order: 0
 
 These guidelines describe geospatial data curation workflows for the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), [EarthWorks](https://earthworks.stanford.edu) and [SearchWorks](https://searchworks.stanford.edu).
 
-SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) are designed to support the layer-level preservation, access, and discovery of geospatial data. Every data layer (shapefile, geotiff, etc.) is identiifed by its own DRUID and can be accessed through a number of applications including: PURL, EarthWorks, SearchWorks, GeoServer, and WMS/WFS.
+SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) are designed to support the layer-level preservation, access, and discovery of geospatial data. Every data layer (e.g. shapefile) is identiifed by its own DRUID and can be accessed through a number of applications including: PURL, EarthWorks, SearchWorks, GeoServer, and WMS/WFS.
 
 ## Geospatial Data ## 
 
-Geospatial data contain relative geographic information about a place and its features.
+Geospatial data are of two types: raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
 
-Types -Geospatial data are of two types, raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
-
-Formats - Geospatial data file formats are containers used for encoding and exchanging geographic information. File formats store and organize references about entities and events (locations, dates, etc.). Formats also determine how the data can be used. 
+Formats - GIS file formats are containers used for encoding and exchanging geographic information in a computer file. Formats specify how information about entities and events is stored. Additionally, file formats play a crucial role in determining how the data can be used. 
 
 The GIS robots currently accept the following file formats:
 
