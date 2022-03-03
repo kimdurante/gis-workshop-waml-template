@@ -4,15 +4,15 @@ title: Collections
 nav_order: 1
 ---
 
-## Geospatial Data Collections
+## Collections Workflow ##
 
 * All data layers must belong to at least one collection. Collection objects in SDR do not store geospatial data. They allow for such things as browsing within collections, and rights/access management.
-* 
-### Determining Rights - Administrative Policy Objects
+
+### Determining Rights - Administrative Policy Objects ###
 
 * Access to collections and data layers is governed by an Administrative Policy Object (APO). If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
-### Creating a Collection
+### Creating a Collection ###
 
 * Depending on how the data is acquired, Collection objects are described using either MARC or MODS metadata. If a MARC record already exists in WorkFlows, enhance the record as recommended and create a collection from the catKey. MARC metadata are transformed to MODS during collection object creation.
 
@@ -20,7 +20,7 @@ nav_order: 1
 
 * A Digital Repository Unique Identifier (DRUID) will be created for the collection.
 
-### Collection-Level Metadata Recommendations
+### Collection-Level Metadata Recommendations ###
 
 * In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following MODS/MARC fields should be included:
 
