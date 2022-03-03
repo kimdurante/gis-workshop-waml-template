@@ -21,7 +21,7 @@ Geospatial data formats are containers used for encoding and exchagning geograph
 
  * Shapefile 
    
-   Shapefiles have traditionally been the standard format for vector data and can be read by almost all GIS systems. Shapefiles are comprised of at least 3 parts with same prefix name the following extensions:    shp, dbf, shx. Other files, such as .prj or cpg may be present. All files must be saved in the same workspace (folder).
+   Shapefile is a widely-used format for vector data which can be read by almost all GIS systems. Shapefiles are comprised of at least 3 parts with same filename prefix and the following extensions: *.shp*, *.dbf*, *.shx*. Other files, such as *.prj* or *.cpg* may be present. All files must be saved in the same workspace (folder).
    
  * GeoTiFF
  * ArcGRID
