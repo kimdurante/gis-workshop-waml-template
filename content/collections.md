@@ -12,7 +12,7 @@ All data layers must belong to at least one collection. Collection objects in SD
 
 Collection-level records are created using either MARC or MODS metadata. This often depends on how or when the collection was acquired. Data purchased through traditional library acquisitions channels tend to originate in Symphony (WorkFlows), and thus use MARC as their source metadata. MODS metadata are increasingly used to describe digital collections. Either method is acceptable.
 
-In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following MODS/MARC fields should be included:
+In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following fields should be included:
 
 |Field|MODS|MARC|Example|
 |:-----|:------|:------|:------|
