@@ -15,11 +15,11 @@ Geospatial data curation workflows overview
 
 | Workflow  | Description |
 | ------------- | ------------- |
-| Acquisitions  | Content Cell  |
-| Collections  | Content Cell  |
-| Layers  | Content Cell  |
-| Accessioning  | Content Cell  |
-| Publishing  | Content Cell  |
+| Acquisitions  | Data sources and content assessment  |
+| Collections  | Registering collections and rights in SDR. Creating metadata for collections.  |
+| Layers  | Creating metadata for data layers  |
+| Accessioning  | Accessioning data  |
+| Publishing  | Releasing content to SearchWorks, EarthWorks, and OpenGeoMetadata  |
 
 ## Geospatial Data ## 
 
