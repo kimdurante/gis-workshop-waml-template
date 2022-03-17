@@ -1,3 +1,12 @@
+import arcpy
+from arcpy import env
+import os
+
+#
+env.workspace = "W:\Africa_Marine_Atlas"
+#spatial reference
+sr = "W:\Africa_Marine_Atlas\ports.prj"
+
 for dirs, subdirs, files in os.walk(rootdir):
     for f in files:
         if f.endswith(".shp"):
