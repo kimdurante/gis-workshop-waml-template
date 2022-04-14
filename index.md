@@ -11,9 +11,9 @@ SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) support the
 
 ## Geospatial Data ## 
 
-Geospatial data are of two types: raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
+**Types**. Geospatial data are of two types: raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
 
-Formats - GIS file formats are containers used for encoding and exchanging geographic information. File formats store and organize references about entities and events (locations, dates, etc.). Additionally, file formats play a crucial role in determining how the data can be used. 
+**Formats**. GIS file formats are containers used for encoding and exchanging geographic information. File formats store and organize references about entities and events (locations, dates, etc.). Additionally, file formats play a crucial role in determining how the data can be used. 
 
 The GIS robots currently accept the following file formats:
 
