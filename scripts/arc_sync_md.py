@@ -1,6 +1,7 @@
 #Synchronize Metadata (arc_sync_md.py). Walk through a directory of shapefiles and GeoTIFFs, and update the metadata.
 import arcpy
 from arcpy import env
+from arcpy import metadata as md
 import os
 
 #Enter the path to the data directory
