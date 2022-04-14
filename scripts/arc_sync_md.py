@@ -6,7 +6,7 @@ import os
 #Enter the path to the data directory
 env.workspace = "W:\Africa_Marine_Atlas"
 
-for dirs, subdirs, files in os.walk('.'):
+for dirs, subdirs, files in os.walk(env.workspace):
     for f in files:
         if f.endswith(".shp") of f.endswith(".tif"):
             filePath = os.path.join(dirs, f)
