@@ -4,7 +4,7 @@ from arcpy import env
 from arcpy import metadata as md
 import os
 
-#Enter the path to the data directory
+#Path to the data directory
 env.workspace = "W:\Africa_Marine_Atlas"
 
 for dirs, subdirs, files in os.walk(env.workspace):
