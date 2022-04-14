@@ -9,18 +9,6 @@ These guidelines describe geospatial data curation workflows for the Stanford Di
 
 SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) support the preservation, access, and discovery of geospatial data at the layer-level. Every data layer (e.g. shapefile) is identiifed by its own DRUID and can be accessed through a number of applications including: PURL, EarthWorks, SearchWorks, GeoServer, and WMS/WFS.
 
-## Workflows ##
-
-Geospatial data curation workflows overview
-
-| Workflow  | Description |
-| ------------- | ------------- |
-| Acquisitions  | Data sources and content assessment  |
-| Collections  | Registering collections and rights in SDR. Creating metadata for collections.  |
-| Layers  | Creating metadata for data layers  |
-| Accessioning  | Accessioning data  |
-| Publishing  | Releasing content to SearchWorks, EarthWorks, and OpenGeoMetadata  |
-
 ## Geospatial Data ## 
 
 Geospatial data are of two types: raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons. 
@@ -36,6 +24,19 @@ The GIS robots currently accept the following file formats:
  * ArcGRID - a raster format that defines geographic space as an array of equally sized square grid points arranged in rows and columns. Each grid point stores a numeric value that represents a geographic attribute for that unit of space. ArcGRID files contain many files in at least two directories: the name directory and an info directory. Metadata for ArcGRIDs are always stored in a file named *metadata.xml*
 
 
+
+
+## Workflows ##
+
+Geospatial data curation workflows overview
+
+| Workflow  | Description |
+| ------------- | ------------- |
+| Acquisitions  | Data sources and content assessment  |
+| Collections  | Registering collections and rights in SDR. Creating metadata for collections.  |
+| Layers  | Creating metadata for data layers  |
+| Accessioning  | Accessioning data  |
+| Publishing  | Releasing content to SearchWorks, EarthWorks, and OpenGeoMetadata  |
 
 
 
