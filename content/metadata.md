@@ -6,7 +6,7 @@ has_children: true
 ---
 ## Metadata
 
-* Creating metadata for geospatial data can be an extremely time-consuming process. Automation is recommended wherever possible, however workflow steps may vary depending on the complexities of the data.
+Creating metadata for geospatial data can be an extremely time-consuming process. Automation is recommended wherever possible, however workflow steps may vary depending on the complexities of the data.
 
 ### ISO 19139/19110 Metadata
 
