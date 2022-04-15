@@ -4,7 +4,9 @@ title: Layers
 nav_order: 2
 ---
 
-## Layer-Level Data Workflows
+## Layer-Level Workflows
+
+Preparing data for accessioning can involve a fair amount of analysis and wrangling. All geospatial data must meet certain functional requirements in order to successfully pass through normalization, GeoServer upload, and release to EarthWorks.
 
 Ensure that all geospatial data layers have:
 
