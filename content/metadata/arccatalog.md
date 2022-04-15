@@ -7,23 +7,6 @@ parent: Metadata
 
 ## Creating Metadata with ArcCatalog
 
-
-[Setting Up ArcCatalog](#setting-up-arccatalog)  
-[Creating a Collection Template](#creating-a-collection-template)  
-[Importing a Template](#importing-a-template)  
-[Updating Metadata for Individual Layers](#updating-metadata-for-individual-layers)  
-[Autogenerating Metadata](#autogenerating-metadata)  
-[Autogenerating Thumbnail Images](#autogenerating-thumbnail-images)  
-
-### Setting Up ArcCatalog
-
-* Open ArcCatalog. Connect to the data folder.
-
-* Set the Metadata Style to ISO 19139. From the Menu bar:
-
-```Customize > ArcCatalog Options > Metadata > ISO 19139 Metadata Implementation Specification```
-
-
 ### Creating a Collection Template
 
 * Copy the [the geoMetadata template](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/templates/template.xml) into the data folder.
