@@ -8,6 +8,8 @@ has_children: true
 
 Metadata workflows for geospatial data are designed to manage creation, transformation, and interoperability of metadata. The GIS infrastructure uses outputs metadata in different schemas so that data can be made availble in a number of applications.
 
+ArcGIS XML - ISO 19139/19110 - MODS - GeoBlacklight
+
 **ArcGIS XML**.Metadata format used in ArcGIS/ArcCatalog. ArcGIS metadata are created in ArcCataloged and transformed to ISO metadata using a system-supplied XSLT.
 
 **ISO19139/ISO19110**. Geospatial Metadata Standard. ISO19139 metadata are created for all layers. ISO19119 metadata describing feature catalogs are created for shapefiles using an XSLT.
