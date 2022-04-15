@@ -6,32 +6,35 @@ nav_order: 2
 
 ## Layer-Level Workflows
 
-Preparing geospatial data for accessioning can involve inspecting or wrangling files in order to make sure they meet certain functional requirements on the infrastructure. 
+Preparing geospatial data for accessioning can involve inspecting or wrangling files in order to make sure they meet certain functional requirements of the infrastructure. 
 
 All layers must have:
 
 * a valid filename (containing only letters, numbers, or underscores)
-* a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended
 * a geographic extent (bounding box coordinates)
+* a valid spatial reference system (SRS)
+
+Data layers can use any valid SRS, although use of the Web Mercator projection is not recommended. During accessioning, the data are normalized to the WGS84 coordinate system. A copy of the original data and a WGS84 derivative are stored in SDR. The WGS84 layer is uploaded to GeoServer.
 
 **Renaming Files**. Run [this script] to rename files containing invalid characters.
 
+**Reprojecting Files**
+
 **List Data**. Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
 
+### Registering Data in SDR
 
-### Registering Data Layers in SDR
+Create a csv file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID contains a prefix and a filename. The prefix consists of '*branner:*' followed by an abbreviation of the collection name followed by an underscore. The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
 
-Create a CSV file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID contains a prefix and a filename. The prefix consists of '*branner:*' followed by an abbreviation of the collection name followed by an underscore. The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
+Format the csv as shown below:
 
-Format the CSV as shown below, leaving the first and third columns blank:
-
-||SOURCEID||LABEL|
-|:----|:----|:----|:----|
-||branner:fmmp12_alameda2012.shp||Important Farmland, Alameda County, California, 2012|
-||branner:fmmp12_amador2012.shp||Important Farmland, Amador County, California, 2012|
-||branner:fmmp12_butte2012.shp||Important Farmland, Butte County, California, 2012|
-||branner:fmmp12_colusa2012.shp||Important Farmland, Colusa County, California, 2012|
-||branner:fmmp12_contracosta2012.shp||Important Farmland, Contra Costa County, California, 2012|
+|||SOURCEID||LABEL|
+|:----|:----|:----|:----|:----|
+|||branner:fmmp12_alameda2012.shp||Important Farmland, Alameda County, California, 2012|
+|||branner:fmmp12_amador2012.shp||Important Farmland, Amador County, California, 2012|
+|||branner:fmmp12_butte2012.shp||Important Farmland, Butte County, California, 2012|
+|||branner:fmmp12_colusa2012.shp||Important Farmland, Colusa County, California, 2012|
+|||branner:fmmp12_contracosta2012.shp||Important Farmland, Contra Costa County, California, 2012|
 
 
 _Example layers from the California Farmland Mapping and Monitoring Program, 2012 collection._
