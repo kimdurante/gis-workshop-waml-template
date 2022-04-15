@@ -20,11 +20,13 @@ Move all data into a folder named for the collection. Survey the collection to c
 In some cases it will be necessary to examine files in a GIS to understand the collection contents. 
 
 Consider: 
-* What features do the data contain (population statistics, boundaries, geolocated imagery, etc.)? 
+* What features do the data contain (themes/topics)? 
 * Where they are located (geographic extent)? 
-* When were they published and also in what time period are they situated (temporal extent)? 
+* When were they published and also in what time period are they situated (publication date/temporal extent)? 
 * Who created and/or published the data? 
 * How often are the data updated (edition/version)? 
 * What are the access and use restrictions (rights)?
+
+Knowing the answers to these questions will assist with metadata creation for data layers and collections.
 
 
