@@ -16,9 +16,7 @@ A list of commonly-used APOs for geospatial data can be found here. If an approp
 
 ### Collection Objects
 
-To register a collection object in SDR, locate the APO for the collection and create the collection using either "Title/Abstract" (MODS) or "Symphony" (MARC). If the collection has a record in Symphony, enhance the MARC record as recommended below and register the collection using the catKey. If no MARC record exists, create a MODS record using a title/abstract and update the XML with the values shown below.
-
-In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following fields should be included for geospatial data:
+To register a collection object in SDR, locate the APO for the collection and create the collection using either "Title/Abstract" (MODS) or "Symphony" (MARC). If the collection has a record in Symphony, enhance the MARC record as recommended below and register the collection using the catKey. If no MARC record exists, register the collecction using a MODS record (title/abstract) and update record later with the values shown below.
 
 |Field|MODS|MARC|Value|
 |:-----|:------|:------|:------|
