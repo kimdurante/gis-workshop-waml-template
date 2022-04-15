@@ -6,18 +6,22 @@ nav_order: 2
 
 ## Layer-Level Workflows
 
-Preparing data for accessioning can involve a fair amount of analysis and wrangling. All geospatial data must meet certain functional requirements in order to successfully pass through normalization, GeoServer upload, and release to EarthWorks.
+Preparing geospatial data for accessioning can involve detailed inspection and wrangling. All data must meet certain functional requirements in order to successfully pass through normalization, upload to GeoServer, and publish to EarthWorks. 
 
-Ensure that all geospatial data layers have:
+All layers must have:
 
 * a valid filename (containing only letters, numbers, or underscores)
-* a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended.
-* coordinate metadata (geographic extent). 
+* a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended
+* a geographic extent (bounding box coordinates)
 
+Renaming Files
+Run [this script] to rename files containing invalid characters.
+
+List Data
 Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
 
 
-### Creating a File Manifest
+### Registering Data Layers in SDR
 
 Create a CSV file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID contains a prefix and a filename. The prefix consists of '*branner:*' followed by an abbreviation of the collection name followed by an underscore. The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
 
