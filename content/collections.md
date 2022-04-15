@@ -6,17 +6,17 @@ nav_order: 2
 
 ## Collections Workflow
 
-All geospatial data layers must belong to at least one collection. Collections in SDR do not store data files. They provide rights functionality, high-level description, and object browsability.
+All geospatial data layers must belong to at least one collection. Collections in SDR do not store data files. They help with high-level description, browsability, and rights functionality.
 
 ### Administrative Policy Objects
 
-All geospatial data collections are governed by an Administrative Policy Object (APO). The APO defines access to data as either world (public) 2 or stanford (restricted). Data are uploaded into the public or restricted GeoServer depending upon the access information specified in the APO.
+All geospatial data collections are governed by an Administrative Policy Object (APO). APOs contain rights information that define access to data as either world (public) 2 or stanford (restricted). Data are uploaded into the public or restricted GeoServer depending upon the access information specified in the APO. APOs also contain a Use and Reproduction statement that specifies instructions for research purpose and reuse.
 
-If an appropriate APO does not currently exist [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
+A list of commonly-used APOs for geospatial data can be found here. If an appropriate APO does not currently exist, [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
-### Collection-Level Metadata
+### Collection Objects
 
-Collection-level records are created using either MARC or MODS metadata. This often depends on how or when the collection was acquired. Data purchased through traditional library acquisitions channels tend to originate in Symphony (WorkFlows), and thus use MARC as their source metadata. MODS metadata are increasingly used to describe digital collections. Either method is acceptable. If a MARC record already exists in WorkFlows, enhance the record as recommended below. If no MARC record exists, create a MODS record using a title and description and update the record after the collection has been created.
+To register a collection object in SDR, locate the APO for the collection and create the collection using either "Title/Abstract" (MODS) or "Symphony" (MARC). If the collection has a record in Symphony, enhance the MARC record as recommended below and register the collection using the catKey. If no MARC record exists, create a MODS record using a title/abstract and update the XML with the values shown below.
 
 In addition to common bibliographic elements (creator, publisher, subjects, publication date), the following fields should be included for geospatial data:
 
