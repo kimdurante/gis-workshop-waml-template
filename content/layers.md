@@ -6,7 +6,7 @@ nav_order: 2
 
 ## Layer-Level Workflows
 
-Preparing geospatial data for accessioning can involve detailed inspection and wrangling. All data must meet certain functional requirements in order to successfully pass through normalization, upload to GeoServer, and publish to EarthWorks. 
+Preparing geospatial data for accessioning can involve inspecting or wrangling files in order to make sure they meet certain functional requirements on the infrastructure. 
 
 All layers must have:
 
@@ -14,11 +14,9 @@ All layers must have:
 * a valid spatial reference system (SRS). Use of the Web Mercator projection (EPSG:3857) is not recommended
 * a geographic extent (bounding box coordinates)
 
-Renaming Files
-Run [this script] to rename files containing invalid characters.
+**Renaming Files**. Run [this script] to rename files containing invalid characters.
 
-List Data
-Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
+**List Data**. Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
 
 
 ### Registering Data Layers in SDR
