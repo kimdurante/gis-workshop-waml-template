@@ -24,7 +24,7 @@ Data layers can use any valid SRS, although use of the Web Mercator projection i
 
 ### Registering Data in SDR
 
-Create a csv file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID contains a prefix and a filename. The prefix consists of '*branner:*' followed by an abbreviation of the collection name followed by an underscore. The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
+Create a csv file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID contains the prefix string  '*branner:*', followed by an abbreviation of the collection name, followed by an underscore. The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
 
 Format the csv as shown below:
 
