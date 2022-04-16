@@ -14,11 +14,16 @@ The GIS infrastructure stores and publishes metadata in a variety of schemas so 
 
 ![Workflow](https://github.com/kimdurante/geospatial-data-management/blob/main/images/MDWorkflow.jpg?raw=true)
 
+|Schema|Description|Application|
+|:--|:--|:--|
+|ArcGIS XML|Proprietary metadata format used in ArcGIS software.|ArcGIS|
+|ISO 19139|The ISO suite of Metadata Standards define how to describe geospatial information and services, including spatial-temporal extents, data sources, and feature catalogs. ISO 19139 metadata are created for all data layers. ISO 19110 metadata describing feature catalogs are created for shapefiles.|geoMetadata |
+|MODS||SearchWorks, PURL, descMetadata|
+|GeoBlacklight Metadata Schema|A discovery schema for federated searching of geospatial data.|GeoBlacklight (EarthWorks)|
+
 **ArcGIS XML**. ArcGIS provides a catalog interface for geospatial data as well as a number of processing and analysis tools which are useful in data wrangling and automation. Metadata created in ArcGISPro are stored in the ArcGIS XML format.
 
 **ISO19139/ISO19110**. Geospatial Metadata Standard. ISO19139 metadata are created for all layers. ISO19119 metadata describing feature catalogs are created for shapefiles using an XSLT.
-
-**MODS**. MODS metadata are derived from the ISO19139 metadata. Used in PURL, SearchWorks.
 
 **GeoBlacklight Metadata Schema**. GeoBlacklight metadata are derived from MODS metadata. Used in EarthWorks.
 
