@@ -10,7 +10,7 @@ Metadata workflows for geospatial data manage the creation, transformation, and 
 
 ### Metadata Schemas
 
-The GIS infrastructure stores and publishes metadata in a variety of schemas so that data can be made availble within different environments. 
+The GIS infrastructure stores and publishes metadata in a variety of schemas so that data can be made available within different environments. 
 
 ![Workflow](https://github.com/kimdurante/geospatial-data-management/blob/main/images/MDWorkflow.jpg?raw=true)
 
