@@ -29,8 +29,6 @@ Although ArcGISPro is the primary cataloging interface for geospatial metadata, 
 
 Copy the following files into the collection folder containing the data.
 
-addMetadata.py
-
 geoTemplate.xml
 
 metadata.csv
