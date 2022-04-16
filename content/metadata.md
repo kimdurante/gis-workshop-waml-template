@@ -6,7 +6,11 @@ has_children: true
 ---
 ## Metadata Workflows
 
-Metadata workflows for geospatial data are designed to manage creation, transformation, and interoperability of metadata. The GIS infrastructure outputs metadata in different schemas so that data can be made availble in a number of applications.
+Metadata workflows for geospatial data manage the creation, transformation, and interoperability of metadata. 
+
+### Metadata Schemas
+
+The GIS infrastructure stores and publishes metadata in a variety of schemas so that data can be made availble within different environments. 
 
 ![Workflow](https://github.com/kimdurante/geospatial-data-management/blob/main/images/MDWorkflow.jpg?raw=true)
 
@@ -17,4 +21,8 @@ Metadata workflows for geospatial data are designed to manage creation, transfor
 **MODS**. MODS metadata are derived from the ISO19139 metadata. Used in PURL, SearchWorks.
 
 **GeoBlacklight Metadata Schema**. GeoBlacklight metadata are derived from MODS metadata. Used in EarthWorks.
+
+### Automation
+
+Although ArcGISPro is the primary cataloging interface for geospatial metadata, automation routines are available to alleviate the tediousness of data entry. Most often, metadata creation begins with a spreadsheet that autogenerates most of the required ArcGIS XML metadata. 
 
