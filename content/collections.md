@@ -10,7 +10,7 @@ All geospatial data layers must belong to at least one collection. Collections i
 
 ### Administrative Policy Objects
 
-All geospatial data collections are governed by an Administrative Policy Object (APO). APOs contain rights information that define access to data as either world (public) 2 or stanford (restricted). Data are uploaded into the public or restricted GeoServer depending upon the access information specified in the APO. APOs also contain a Use and Reproduction statement that specifies instructions for research purpose and reuse.
+All geospatial data collections are governed by an Administrative Policy Object (APO). APOs define access to data as either 'world' (public) or 'stanford' (restricted). Data are uploaded to either the public or restricted GeoServer depending upon the access definition provided in the APO. APOs also contain a Use and Reproduction statement that specifies instructions for research purpose and reuse.
 
 A list of commonly-used APOs for geospatial data can be found here. If an appropriate APO does not currently exist, [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
 
