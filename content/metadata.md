@@ -25,7 +25,7 @@ The GIS infrastructure stores and publishes metadata in a variety of schemas so 
 
 Although ArcGISPro is the primary cataloging interface for geospatial metadata, automation routines are available to alleviate the tediousness of data entry. Most often, metadata creation begins in a spreadsheet that is used to autogenerate most of the ArcGIS XML metadata. The automated metadata creation workflow for geospatial data is incredibly more efficient than creating individual metadata records from scratch. 
 
-### Automated Workflow
+### Bulk Metadata Creation Workflow
 
 Copy the following files into the collection folder containing the data.
 
