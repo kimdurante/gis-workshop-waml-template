@@ -7,7 +7,7 @@ nav_order: 0
 
 These guidelines describe geospatial data curation workflows for the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), [EarthWorks](https://earthworks.stanford.edu) and [SearchWorks](https://searchworks.stanford.edu).
 
-SUL's [GIS Data Accessioning Robots](https://github.com/sul-dlss/gis-robot-suite) support the accessioning and discovery of geospatial data at the layer-level. Every data layer (e.g. shapefile, GeoTIFF) is identiifed by its own DRUID and can be accessed through a number of applications including: PURL, EarthWorks, SearchWorks, GeoServer, and WMS/WFS.
+SUL's [GIS Data Robots](https://github.com/sul-dlss/gis-robot-suite) support the accessioning and discovery of geospatial data at the layer-level. Every data layer (e.g. shapefile, GeoTIFF) is identiifed by its own DRUID and can be accessed through a number of applications including: PURL, EarthWorks, SearchWorks, GeoServer, and WMS/WFS.
 
 ## Geospatial Data ## 
 
