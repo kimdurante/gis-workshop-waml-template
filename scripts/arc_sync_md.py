@@ -9,7 +9,7 @@ env.workspace = "W:\Africa_Marine_Atlas"
 
 for dirs, subdirs, files in os.walk(env.workspace):
     for f in files:
-        if f.endswith(".shp") of f.endswith(".tif"):
+        if f.endswith(".shp") or f.endswith(".tif"):
             filePath = os.path.join(dirs, f)
             src_item_md = md.Metadata(filePath)
             print (src_item_md)
