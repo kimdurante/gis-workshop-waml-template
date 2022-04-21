@@ -8,7 +8,7 @@ env.workspace = "W:\Africa_Marine_Atlas"
 #Path to a projection file containing the desired projection metadata
 sr = "W:\Africa_Marine_Atlas\ports.prj"
 
-for dirs, subdirs, files in os.walk(rootdir):
+for dirs, subdirs, files in os.walk(env.workspace):
     for f in files:
         if f.endswith(".shp") or f.endswith(".tif"):
             filePath = os.path.join(dirs, f)
