@@ -10,7 +10,7 @@ sr = "W:\Africa_Marine_Atlas\ports.prj"
 
 for dirs, subdirs, files in os.walk(rootdir):
     for f in files:
-        if f.endswith(".shp") or f.endswith(".tif":
+        if f.endswith(".shp") or f.endswith(".tif"):
             filePath = os.path.join(dirs, f)
             try:
                 spatial_ref = arcpy.Describe(filePath).spatialReference
