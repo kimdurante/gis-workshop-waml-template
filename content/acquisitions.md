@@ -6,11 +6,13 @@ nav_order: 1
 
 ## Acquisitions Workflow
 
-SUL acquires geospatial data from a number of sources, including commercial vendors, public data providers, researchers, and special projects. Data are usually acquired as 'collections,' meaning there are multiple data files relating a similar themes, places, events, etc. It is important to ascertain any copyright, access, and usage restrictions associated with the to the collection before downloading and distributing data. This may require consultation with the data provider or reading through website disclaimers/other documentation. 
+SUL acquires geospatial data from a number of sources, including commercial vendors, public data providers, researchers, and special projects. Data are usually acquired as 'collections,' meaning there are multiple data files created or compiled with similar themes, places, events, etc. 
+
+It is important to ascertain any copyright, access, and usage restrictions associated with the to the collection before downloading and distributing data. This may require consultation with the data provider or reading through website disclaimers/other documentation. 
 
 ## Collection Assessment
 
-Move all data into a folder named for the collection. Survey the collection to check for things such as:
+Copy all data into a folder named for the collection. Survey the collection to check for things such as:
 
 * total number of layers
 * data types/formats
@@ -26,7 +28,3 @@ Consider:
 * Who created and/or published the data? 
 * How often are the data updated (edition/version)? 
 * What are the access and use restrictions (rights)?
-
-Knowing the answers to these questions will assist with metadata creation for data layers and collections.
-
-
