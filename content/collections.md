@@ -6,17 +6,15 @@ nav_order: 2
 
 ## Collections Workflow
 
-All geospatial data layers must belong to at least one collection. Collections in SDR do not store data files. They help with high-level description, browsability, and rights functionality.
+All geospatial data layers must belong to at least one collection. Collection objects in SDR do not store data. They provide with high-level description, browsability, and rights functionality.
 
-### Administrative Policy Objects
-
-All geospatial data collections are governed by an Administrative Policy Object (APO). APOs define access to data as either 'world' (public) or 'stanford' (restricted). Data are uploaded to either the public or restricted GeoServer depending upon the access definition provided in the APO. APOs also contain a Use and Reproduction statement that specifies instructions for research purpose and reuse.
-
-A list of commonly-used APOs for geospatial data can be found here. If an appropriate APO does not currently exist, [follow these instructions](https://consul.stanford.edu/display/DLSSDOCS/Argo+-+How+to+Create+an+APO) to create a new one.
+All geospatial data collections are governed by an Administrative Policy Object (APO). APOs define access to data as either 'world' (public) or 'stanford' (restricted). This access definition specifies whether data are delivered to the public or restricted GeoServer. APOs also contain a Use and Reproduction statement that specifies instructions for research purpose and reuse. 
 
 ### Collection Objects
 
-To register a collection object in SDR, locate the APO and create the collection using either "Title/Abstract" (MODS) or "Symphony" (MARC). If the collection has a record in Symphony, enhance the MARC record as recommended below and register the collection using the catKey. If no MARC record exists, register the collection using a Title and Abstract. Update the MODS record later with the values shown below.
+To create a collection object in SDR, locate the APO and create the collection using either "Title/Abstract" (MODS) or "Symphony" (MARC). If the collection has a record in Symphony, enhance the MARC record as recommended below and register the collection using the catKey. 
+
+If no MARC record exists, register the collection using a Title and Abstract. Update the MODS record later with the values shown below.
 
 |Field|MODS|MARC|Value|
 |:-----|:------|:------|:------|
