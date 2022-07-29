@@ -8,7 +8,7 @@ nav_order: 1
 
 SUL acquires geospatial data from a number of sources, including commercial vendors, public data providers, researchers, and special projects. Data are usually acquired as 'collections,' meaning there are multiple data files created or compiled with similar themes, places, events, etc. 
 
-It is important to ascertain any copyright, access, and usage restrictions associated with the to the collection before downloading and distributing data. This may require consultation with the data provider or reading through website disclaimers/other documentation. 
+It is important to ascertain any copyright, access, and usage restrictions associated with the collection before downloading and distributing data. This may require consultation with the data provider or reading through website disclaimers/other documentation. 
 
 ## Collection Assessment
 
