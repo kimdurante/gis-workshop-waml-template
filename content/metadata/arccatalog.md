@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creating Metadata with ArcCatalog
+title: Creating Metadata
 nav_order: 0
 parent: Metadata
 ---
@@ -28,8 +28,21 @@ Metadata properties and their description.
 |filename|Filename of the data (incl. extension)|
 |druid|DRUID|
 |title|Title of the resource|
-
-
+|originator|Personal or organization who created the resource|
+|publisher|Organization that published the data|
+|publicationDate|Publication date for the resource|
+|abstract|Descriptive summary of the data|
+|theme||
+|place||
+|temporalBegin||
+|temporalEnd||
+|CollectionTitle||
+|CollectionDruid||
+|relatedItemTitle||
+|relatedItemURL||
+|contactName||
+|contactEmail||
+|uuid||
 
 * Save a copy of [this Python script](https://github.com/kimdurante/metadataWorkflow/blob/master/scripts/addMetadata.py) in the collection directory. 
  
