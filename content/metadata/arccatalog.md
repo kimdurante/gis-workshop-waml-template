@@ -11,7 +11,7 @@ Metadata are created for geospatial data layers using a combination of a spreads
 
 ### Creating a Metadata Spreadsheet
 
-Make a copy of the GIS metadata template ```metadata.csv``in the data folder. Add the Filenames, DRUIDs, and Titles, from the list of registered layers.
+Make a copy of the GIS metadata template ```metadata.csv`` in the data folder. Add the Filenames, DRUIDs, and Titles, from the list of registered layers.
 
 |FILENAME|DRUID|TITLE|UUID|
 |:-----|:-----|:-----|:-----|
