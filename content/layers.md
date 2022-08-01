@@ -38,7 +38,7 @@ Register the items in Argo using the appropriate APO and Collection. Use Content
 |||branner:fmmp12_amador2012.shp||Important Farmland, Amador County, California, 2012|
 |||branner:fmmp12_butte2012.shp||Important Farmland, Butte County, California, 2012|
 
-_A DRUID is created for each data layer_
+A DRUID is created for each data layer
 
 
 ||SOURCEID|DRUID|LABEL|
