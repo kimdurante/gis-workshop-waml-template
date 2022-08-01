@@ -21,9 +21,9 @@ Make a copy of the GIS metadata template _metadata.csv_. Add the Filenames, DRUI
 
 ### GIS Metadata Template Elements
 
-The template collects required and recommended metadata values for the description of geospatial data.
+Metadata properties and their description.
 
-|Value|Description|
+|Property|Description|
 |:-----|:-----|
 |filename|Filename of the data (incl. extension)|
 |druid|DRUID|
