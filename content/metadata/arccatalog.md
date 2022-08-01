@@ -43,80 +43,15 @@ parent: Metadata
 
 * When importing into a single layer use the import type: ```FROM_ARCGIS```
 
-### Updating Metadata for Individual Layers
-
-Select a layer from the directory. Update the metadata elements with values unique to that layer.  
-
-Example: alameda2012.shp
-
-|FIELD|VALUE|
-|:-----|:-----|
-|Title|Important Farmland, Alameda County, California, 2012|
-|Abstract|This polygon shapefile represents areas of important farmland in Alameda County, California for 2012. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.|
-|Credit|California Farmland Mapping and Monitoring Program. (2012). Important Farmland, Alameda County, California, 2012. California Farmland Mapping and Monitoring Program. Available at: http://purl.stanford.edu/rp378rd3804.|
-|Place keywords|Alameda County (Calif.)|
-|Identifier|https://purl.stanford.edu/rp378rd3804|
-|Metadata File Identifier|edu.stanford.purl:rp378rd3804|
-|Dataset URI|https://purl.stanford.edu/rp378rd3804|
-|Distribution Online Linkage|https://purl.stanford.edu/rp378rd3804|
-|Distribution Online Name|alameda2012.shp|
-|Feature Catalog Identifier|564c855e-e45a-47dc-b0c4-001839b00864|
-
-* Save the file.
-
 #### Create a Thumbnail Image
 
 * On the Preview tab use the Thumbnail Generator tool to create a thumbnail preview for the layer.
 
 ![alameda.jpg](https://raw.githubusercontent.com/kimdurante/geospatial-data-management/main/content/img/alameda.jpg)
 
-* Open the next layer in the directory and add the individual values.
+### Creating a Metadata Spreadsheet
 
-Example: amador2012.shp
-
-|FIELD|VALUE|
-|:-----|:-----|
-|Title|Important Farmland, Amador County, California, 2012|
-|Abstract|This polygon shapefile represents areas of important farmland in Amador County, California for 2012. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.|
-|Credit|California Farmland Mapping and Monitoring Program. (2012). Important Farmland, Amador County, California, 2012. California Farmland Mapping and Monitoring Program. Available at: http://purl.stanford.edu/mc357cj1107.|
-
-<details><summary>See All</summary>
-<br/>
-<table>
-  <tr>
-    <td class="tg-0lax">Place Keywords</td>
-    <td class="tg-0lax">Almador County (Calif.)</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Identifier</td>
-    <td class="tg-0lax">https://purl.stanford.edu/mc357cj1107</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Metadata File Identifier</td>
-    <td class="tg-0lax">edu.stanford.purl:mc357cj1107</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Dataset URI</td>
-    <td class="tg-0lax">https://purl.stanford.edu/mc357cj1107</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Distribution Online Linkage</td>
-    <td class="tg-0lax">https://purl.stanford.edu/mc357cj1107</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Distribution Online Name</td>
-    <td class="tg-0lax">amador2012.shp</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">Feature Catalog Identifier</td>
-    <td class="tg-0lax">e011c181-590e-4d9a-bcbd-de2df592d00c</td>
-  </tr>
-</table>
-</details>
-
-### Autogenerating Metadata
-
-Even a relatively simple collection example like the one above requires lot of manual entry across dozens of files. Using tools to automate input, especially when metadata contain URLs or redundant information, can make processing XML faster and less susceptible to error.
+Using a spreadsheet to manage metadata creation is more efficient, especially when working with multiple layers.
 
 In these examples the first four elements (title, abstract, place keyword, and credit) contain free text referencing the specific county (Alameda, Amador, etc.). The remaining elements are strings containing identifiers or filenames. 
 
