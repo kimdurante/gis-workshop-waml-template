@@ -28,9 +28,7 @@ Geospatial data can be accessioned using any valid SRS, however use of the Web M
 
 ### Registering Data
 
-Create a csv file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID contains the prefix string  '*branner:*', followed by an abbreviation of the collection name, followed by an underscore. 
-
-The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
+Register data in Argo using a csv file containing a **SourceID** and a **Label** for each layer. The SourceID contains the prefix  '*branner:*', an abbreviation of the collection name, and an underscore. The filename is appended to the prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
 
 Format the csv as shown below:
 
