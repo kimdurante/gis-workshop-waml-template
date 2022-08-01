@@ -42,7 +42,6 @@ parent: Metadata
 * ArcGIS Metadata Importer Tool can import a template into one or more layers using singular or batch import methods. 
 
 * When importing into a single layer use the import type: ```FROM_ARCGIS```
-```
 
 ### Updating Metadata for Individual Layers
 
