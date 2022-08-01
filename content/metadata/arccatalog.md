@@ -34,7 +34,7 @@ parent: Metadata
 >>> layers = arcpy.ListFeatureClasses('*')
 >>> for layer in layers:
     arcpy.ImportMetadata_conversion(r"C:/PATH/TO/TEMPLATE/template.xml",FROM_ARCGIS",layer)
-...
+```
 
 #### ArcGIS Metadata Importer
 
