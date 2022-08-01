@@ -6,6 +6,10 @@ nav_order: 2
 
 ## Layer-Level Workflows
 
+Preparing and registering data
+
+### Preparing Data
+
 Preparing geospatial data for accessioning can involve inspecting or wrangling files in order to make sure they meet certain functional requirements of the infrastructure. 
 
 All layers must have:
@@ -14,7 +18,7 @@ All layers must have:
 * a geographic extent (bounding box coordinates)
 * a valid spatial reference system (SRS)
 
-Data layers can use any valid SRS, although use of the Web Mercator projection is not recommended. During accessioning, the data are normalized to the WGS84 coordinate system. A copy of the original data and a WGS84 derivative are stored in SDR. The WGS84 layer is uploaded to GeoServer.
+Geospatial data can be accessioned using any valid SRS, although use of the Web Mercator projection is not recommended. During accessioning, data are normalized to the WGS84 coordinate system. A copy of the original data and its WGS84 derivative are stored in SDR. The WGS84 layer is uploaded to GeoServer.
 
 **Renaming Files**. Run [this script] to rename files containing invalid characters.
 
