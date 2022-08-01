@@ -13,48 +13,17 @@ parent: Metadata
 
 * Open ArcGIS and connect to the data folder.
 
-* This is a very straightforward example from the California Farmland Mapping and Monitoring Program, 2012 collection. Many of the values are identical for each shapefile (organization name, theme keywords, temporal extent, update frequency, rights, and attribute definitions). The abstract text varies only when specifying the county name.
-
-
-
-|FIELD|VALUE|
-|:-----|:-----|
-|Abstract|This polygon shapefile represents areas of important farmland in COUNTY, California for 2012. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public.|
-|Purpose|The Farmland Mapping and Monitoring Program (FMMP) provides data to decision makers for use in planning for the present and future use of California's agricultural land resources. The data is a current inventory of agricultural resources. This data is for general planning purposes and has a minimum mapping unit of ten acres.|
-|ISO topic category|Farming|
-|Theme keywords|Land use<br/>Urbanization<br/>Agriculture|
-|Collective title|California Farmland Mapping and Monitoring Program, 2012|
-|Publication Date|2012-01-01|
-|Publisher|California. Farmland Mapping and Monitoring Program|
-|Originator|California. Farmland Mapping and Monitoring Program|
-|Parent metadata identifier|https://purl.stanford.edu/rn450jx3747.mods|
-|Temporal extent description|ground condition|
-|Temporal extent|2012-01-01|
-|Point of contact|California. Farmland Mapping and Monitoring Program|
-|Maintenance and Update Frequency|Biannually|
-|Use constraints|This item is in the public domain. There are no restrictions on use.|
-|Aggregate dataset title|California Farmland Mapping and Monitoring Program, 2012|
-|Aggregate dataset identifier|https://purl.stanford.edu/rn450jx3747|
-|Attribute Labels|county_nam<br/>upd_year<br/>polygon_ty|
-|Attribute Definitions|County name<br/>Update year<br/>Farmland categories: Prime Farmland (P), Farmland of Statewide Importance (S), Unique Farmland (U), Farmland of Local Importance (L), Grazing Land (G), Urban and Built-up Land (D), Other Land (X)|
-
-* Save the template
-
 ### Importing a Template
-
 
 * Import the template into each layer using one of the following methods. Note that importing a template will overwrite any existing metadata.
 
-#### ArcGIS Metadata Importer
+#### Python
 
-
-* ArcGIS Metadata Importer Tool can import a template into one or more layers using singular or batch import methods. 
-
-* When importing into a single layer use the import type: ```FROM_ARCGIS```
+* [This python script can be run from the collection folder](https://github.com/kimdurante/metadataWorkflow/blob/master/scripts/importTemplate.py)
 
 #### ArcPy
 
-* ArcPy is a much faster alternative to the importer tool. To apply a template to a collection, from the Menu bar: ```GeoProcessing > Python```
+* To apply a template to a collection, from the Menu bar: ```GeoProcessing > Python```
 
 * Enter the code below. Replace ```C:/PATH/TO/DIRECTORY``` with the correct path:
 
@@ -65,11 +34,15 @@ parent: Metadata
 >>> layers = arcpy.ListFeatureClasses('*')
 >>> for layer in layers:
     arcpy.ImportMetadata_conversion(r"C:/PATH/TO/TEMPLATE/template.xml",FROM_ARCGIS",layer)
+...
+
+#### ArcGIS Metadata Importer
+
+
+* ArcGIS Metadata Importer Tool can import a template into one or more layers using singular or batch import methods. 
+
+* When importing into a single layer use the import type: ```FROM_ARCGIS```
 ```
-
-#### Python
-
-* [This python script can be run from the collection folder](https://github.com/kimdurante/metadataWorkflow/blob/master/scripts/importTemplate.py)
 
 ### Updating Metadata for Individual Layers
 
