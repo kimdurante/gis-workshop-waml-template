@@ -11,7 +11,7 @@ parent: Metadata
 
 * Copy the [the geoMetadata template](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/templates/template.xml) into the data folder.
 
-* Open the template and add metadata values that are common among all layers. 
+* Open ArcGIS and connect to the data folder.
 
 * This is a very straightforward example from the California Farmland Mapping and Monitoring Program, 2012 collection. Many of the values are identical for each shapefile (organization name, theme keywords, temporal extent, update frequency, rights, and attribute definitions). The abstract text varies only when specifying the county name.
 
