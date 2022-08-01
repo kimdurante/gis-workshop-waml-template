@@ -18,17 +18,19 @@ All layers must have:
 * a geographic extent (bounding box coordinates)
 * a valid spatial reference system (SRS)
 
-Geospatial data can be accessioned using any valid SRS, although use of the Web Mercator projection is not recommended. During accessioning, data are normalized to the WGS84 coordinate system. A copy of the original data and its WGS84 derivative are stored in SDR. The WGS84 layer is uploaded to GeoServer.
+Geospatial data can be accessioned using any valid SRS, although use of the Web Mercator projection is not recommended. During accessioning, data are normalized to the WGS84 coordinate system (EPSG:4326). A copy of the original data and a WGS84 derivative are stored in SDR. The WGS84 layer is uploaded to GeoServer.
 
 **Renaming Files**. Run [this script] to rename files containing invalid characters.
 
-**Reprojecting Files**
-
 **List Data**. Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
 
-### Registering Data in SDR
+**Reprojecting Files**
 
-Create a csv file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID contains the prefix string  '*branner:*', followed by an abbreviation of the collection name, followed by an underscore. The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
+### Registering Data
+
+Create a csv file containing a **SourceID** and a **Label** for each layer in the collection. The SourceID contains the prefix string  '*branner:*', followed by an abbreviation of the collection name, followed by an underscore. 
+
+The filename for the layer is appended to this prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
 
 Format the csv as shown below:
 
