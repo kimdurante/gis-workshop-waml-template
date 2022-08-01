@@ -6,7 +6,7 @@ nav_order: 2
 
 ## Layer-Level Workflows
 
-Preparing and registering data
+Preparing geospatial data layers for accessioning.
 
 ### Preparing Data
 
