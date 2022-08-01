@@ -6,7 +6,7 @@ nav_order: 2
 
 ## Collections Workflow
 
-All geospatial data layers must belong to at least one collection. Collection objects in SDR do not store data. They provide with high-level description, browsability, and rights functionality. Access protocols for geospatial data are managed by an Administrative Policy Object (APO). APOs define access to data as either 'world' (public) or 'stanford' (restricted). This definition specifies whether data are stored in the public or restricted GeoServer. APOs also contain a Use and Reproduction statement that specifies instructions for research purpose and reuse. 
+All geospatial data layers must belong to at least one collection. Collection objects in SDR do not store data. They provide high-level description, browsability, and rights functionality. Access protocols for geospatial data are managed by an Administrative Policy Object (APO). APOs define access to data as either 'world' (public) or 'stanford' (restricted). This definition specifies whether data are stored in the public or restricted GeoServer. APOs also contain a Use and Reproduction statement that specifies instructions for research purpose and reuse. 
 
 ### Creating a Collection
 
