@@ -10,7 +10,7 @@ Preparing geospatial data layers for accessioning.
 
 ### Preparing Data
 
-Preparing geospatial data for accessioning can involve inspecting or wrangling files in order to make sure they meet certain functional requirements of the infrastructure. 
+Preparing geospatial data can involve inspecting or wrangling files in order to make sure they meet certain functional requirements of the infrastructure. 
 
 All layers must have:
 
@@ -18,7 +18,7 @@ All layers must have:
 * a geographic extent (bounding box coordinates)
 * a valid spatial reference system (SRS)
 
-Geospatial data can be accessioned using any valid SRS, although use of the Web Mercator projection is not recommended. During accessioning, data are normalized to the WGS84 coordinate system (EPSG:4326). A copy of the original data and a WGS84 derivative are stored in SDR. The WGS84 layer is uploaded to GeoServer.
+Geospatial data can be accessioned using any valid SRS, however use of the Web Mercator projection is not recommended. During accessioning, data are normalized to the WGS84 coordinate system (EPSG:4326). A copy of the original dataset and a WGS84 derivative are stored in SDR and made availble for download in EarthWorks, SearchWorks, and PURL. WGS84 data are uploaded to GeoServer.
 
 **Renaming Files**. Run [this script] to rename files containing invalid characters.
 
