@@ -7,13 +7,13 @@ parent: Metadata
 
 ## Creating Metadata
 
-Metadata are created for geospatial data layers using a combination of a spreadsheet, automation routines, and ArcGIS. Using a spreadsheet to manage metadata creation is more efficient, especially when working with multiple layers. However, ArcGIS provides a suite of useful tools for cataloging, viewing, and wrangling data in cases where data need to be inspected or modified.
+Metadata can be created for data layers using a combination of a spreadsheet, automation routines, and ArcGIS. Using a spreadsheet to manage metadata creation is vastly more efficient, especially when working with multiple layers. However, ArcGIS provides a suite of useful tools for cataloging, viewing, and wrangling, in cases where data need to be inspected or modified.
 
 ### Creating a Metadata Spreadsheet
 
 Make a copy of the GIS metadata template _metadata.csv_. Add the Filenames, DRUIDs, and Titles, from the list of registered layers.
 
-|FILENAME|DRUID|TITLE|UUID|
+|filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|
 |alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012|564c855e-e45a-47dc-b0c4-001839b00864|
 |amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|e011c181-590e-4d9a-bcbd-de2df592d00c|
@@ -36,8 +36,8 @@ Metadata properties and their description.
 |place||
 |temporalBegin||
 |temporalEnd||
-|CollectionTitle||
-|CollectionDruid||
+|collectionTitle||
+|collectionDruid||
 |relatedItemTitle||
 |relatedItemURL||
 |contactName||
