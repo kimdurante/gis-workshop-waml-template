@@ -21,11 +21,11 @@ The GIS infrastructure stores and publishes metadata in a variety of schemas so 
 |MODS||SearchWorks, PURL, descMetadata|
 |GeoBlacklight Metadata Schema|A discovery schema for federated searching of geospatial data.|GeoBlacklight (EarthWorks)|
 
-### Metadata Creation
+### Metadata Creation Tools
 
-Although ArcGISPro is the primary cataloging interface for geospatial metadata, automation routines are available to alleviate the tediousness of data entry. Most often, metadata creation begins in a spreadsheet that is used to autogenerate most of the ArcGIS XML metadata. The automated metadata creation workflow for geospatial data is incredibly more efficient than creating individual metadata records from scratch. 
+Although ArcGISPro is the primary cataloging interface for geospatial metadata, several automation routines may be used to alleviate the tediousness of many tasks. Most often, metadata creation begins in a spreadsheet that is used to autogenerate most ArcGIS XML metadata. The automated metadata creation workflow for geospatial data is incredibly more efficient than creating individual metadata records from scratch. 
 
-### Bulk Metadata Creation Workflow
+### Automated Metadata Creation Workflow
 
 Copy the following files into the collection folder containing the data.
 
