@@ -9,7 +9,7 @@ parent: Metadata
 
 ### Creating a Collection Template
 
-* Copy the [the geoMetadata template](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/templates/template.xml) into the data folder.
+* Copy the [the GIS metadata template](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/templates/template.xml) into the data folder.
 
 * Open ArcGIS and connect to the data folder.
 
@@ -33,7 +33,7 @@ parent: Metadata
 >>> env.workspace: r‘C:/PATH/TO/DIRECTORY’
 >>> layers = arcpy.ListFeatureClasses('*')
 >>> for layer in layers:
-    arcpy.ImportMetadata_conversion(r"C:/PATH/TO/TEMPLATE/template.xml",FROM_ARCGIS",layer)
+    arcpy.ImportMetadata_conversion(r"gis_template.xml",FROM_ARCGIS",layer)
 ```
 
 #### ArcGIS Metadata Importer
