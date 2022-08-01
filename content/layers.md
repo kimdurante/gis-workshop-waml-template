@@ -39,8 +39,6 @@ Format the csv as shown below:
 |||branner:fmmp12_alameda2012.shp||Important Farmland, Alameda County, California, 2012|
 |||branner:fmmp12_amador2012.shp||Important Farmland, Amador County, California, 2012|
 |||branner:fmmp12_butte2012.shp||Important Farmland, Butte County, California, 2012|
-|||branner:fmmp12_colusa2012.shp||Important Farmland, Colusa County, California, 2012|
-|||branner:fmmp12_contracosta2012.shp||Important Farmland, Contra Costa County, California, 2012|
 
 
 _Example layers from the California Farmland Mapping and Monitoring Program, 2012 collection._
