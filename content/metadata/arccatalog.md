@@ -9,15 +9,17 @@ parent: Metadata
 
 Metadata can be created for data layers using a combination of a spreadsheet, automation routines, and ArcGIS. Using a spreadsheet to manage metadata creation is vastly more efficient, especially when working with multiple layers. However, ArcGIS provides a suite of useful tools for cataloging, viewing, and wrangling, in cases where data need to be inspected or modified.
 
-### Creating a Metadata Spreadsheet
+### Using a Metadata Template
 
-Make a copy of the GIS metadata template _metadata.csv_. Add the Filenames, DRUIDs, and Titles, from the list of registered layers.
+*  Make a copy of the GIS metadata template. Add the filenames, druidss, and titles, from the list of registered layers.
 
 |filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012|564c855e-e45a-47dc-b0c4-001839b00864|
-|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|e011c181-590e-4d9a-bcbd-de2df592d00c|
-|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|0cb51486-aebf-4e64-8d07-2f1039bafee1|
+|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012||
+|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012||
+|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012||
+
+Add the 
 
 ### GIS Metadata Template Elements
 
