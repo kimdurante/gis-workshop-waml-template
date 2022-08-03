@@ -32,7 +32,7 @@ Geospatial data curation workflows overview
 | Workflow  | Description |
 | ------------- | ------------- |
 | Acquisitions  | Data sources and content assessment  |
-| Collections  | Creating collections and APOs. |
+| Collections  | Creating collections and APOs |
 | Layers  | Preparing data for cataloging and acccessioning  |
 | Metadata | Creating metadata for geospatial data |
 | Accessioning  | Accessioning data  |
