@@ -19,11 +19,10 @@ Prior to cataloging/accessioning data, ensure that all layers have:
 
 The infrastructure accepts data in any valid SRS. During the gisAssembly workflow, data are normalized to the WGS84 coordinate system. A copy of both the original dataset and the WGS84 derivative are stored in SDR and made availble for download in EarthWorks, SearchWorks, and PURL. The WGS84 data are uploaded to GeoServer.
 
-**Renaming Files**. Run [this script] to rename files containing invalid characters.
+**Spatial Reference Systems**
+
 
 **List Data**. Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
-
-**Reprojecting Files**
 
 ### Registering Data
 
