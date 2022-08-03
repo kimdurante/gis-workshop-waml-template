@@ -6,19 +6,18 @@ nav_order: 2
 
 ## Layer-Level Workflows
 
-Preparing geospatial data layers for accessioning.
-
-### Preparing Data
 
 Preparing geospatial data can involve inspecting or wrangling files in order to make sure they meet certain functional requirements of the infrastructure. 
 
-All layers must have:
+### Preparing Data
+
+Prior to cataloging/accessioning data, ensure that all layers have:
 
 * a valid filename (containing only letters, numbers, or underscores)
-* a geographic extent (bounding box coordinates)
+* a valid geographic extent (bounding box coordinates)
 * a valid spatial reference system (SRS)
 
-Geospatial data can be accessioned using any valid SRS, however use of the Web Mercator projection is not recommended. During accessioning, data are normalized to the WGS84 coordinate system (EPSG:4326). A copy of the original dataset and a WGS84 derivative are stored in SDR and made availble for download in EarthWorks, SearchWorks, and PURL. WGS84 data are uploaded to GeoServer.
+The infrastructure accepts data in any valid SRS. During the gisAssembly workflow, data are normalized to the WGS84 coordinate system. A copy of both the original dataset and the WGS84 derivative are stored in SDR and made availble for download in EarthWorks, SearchWorks, and PURL. The WGS84 data are uploaded to GeoServer.
 
 **Renaming Files**. Run [this script] to rename files containing invalid characters.
 
