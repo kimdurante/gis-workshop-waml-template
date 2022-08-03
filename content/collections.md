@@ -13,9 +13,7 @@ Access rights for geospatial data are managed by an Administrative Policy Object
 
 ### Creating a Collection
 
-To create a collection object in SDR, locate the APO and create the collection using either "Title/Abstract" (MODS) or "Symphony" (MARC). If the collection has a record in Symphony, enhance the MARC record as recommended below and register the collection using the catKey. 
-
-If no MARC record exists, register the collection using a Title and Abstract. Update the MODS record later with the values shown below.
+To create a collection object in SDR, locate the APO and create the collection using either "Title/Abstract" (MODS) or "Symphony" (MARC). If the collection has a record in Symphony, enhance the MARC record as recommended below and register the collection using the catKey.  If no MARC record exists, register the collection using a Title and Abstract and update the descriptive metadata with the values shown below.
 
 |Field|MODS|MARC|Value|
 |:-----|:------|:------|:------|
@@ -24,6 +22,6 @@ If no MARC record exists, register the collection using a Title and Abstract. Up
 |Genre|genre authority="lcgft"|655 (ind1='7'), (sub2='lcgft')|Geospatial data|
 |Coordinates|subject/cartographics/coordinates|255|(W 121.4851--W 120.3878/N 038.0775--N 037.1347)|
 
-Example Collection PURL (from MARC): [https://purl.stanford.edu/qf529ms0562](https://purl.stanford.edu/qf529ms0562)
+Example Collection PURL (created from MARC): [https://purl.stanford.edu/qf529ms0562](https://purl.stanford.edu/qf529ms0562)
 
-Example Collection PURL (from MODS): [https://purl.stanford.edu/fy405sm5009](https://purl.stanford.edu/fy405sm5009)
+Example Collection PURL (created from MODS): [https://purl.stanford.edu/fy405sm5009](https://purl.stanford.edu/fy405sm5009)
