@@ -32,8 +32,9 @@ Geospatial data curation workflows overview
 | Workflow  | Description |
 | ------------- | ------------- |
 | Acquisitions  | Data sources and content assessment  |
-| Collections  | Registering collections and rights in SDR. Creating metadata for collections.  |
-| Layers  | Creating metadata for data layers  |
+| Collections  | Creating collections and APOs. |
+| Layers  | Preparing data for cataloging and acccessioning  |
+| Metadata | Creating metadata for geospatial data |
 | Accessioning  | Accessioning data  |
 | Publishing  | Releasing content to SearchWorks, EarthWorks, and OpenGeoMetadata  |
 
