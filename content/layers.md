@@ -19,7 +19,7 @@ Prior to cataloging/accessioning data, ensure that all layers have:
 
 **Spatial Reference Systems**
 
-The infrastructure accepts data in any valid SRS. During accessioning data are normalized to the WGS84 coordinate system. A copy of both the original data and the WGS84 derivative are stored in SDR and made available for download in EarthWorks, SearchWorks, and PURL. The WGS84 data are uploaded to GeoServer.
+The infrastructure accepts data in any valid SRS. During accessioning data are normalized to the WGS84 coordinate system. A copy of both the original data and the WGS84 derivative are stored in SDR. Both files are made available for download in EarthWorks, SearchWorks, and PURL. The WGS84 data are uploaded to GeoServer.
 
 ### Registering Data
 
