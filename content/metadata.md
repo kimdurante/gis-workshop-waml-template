@@ -55,6 +55,12 @@ Save the file as ```'metadata.csv'```
 
 ### Creating ArcGIS XML
 
+* Begin by creating an ArcGIS XML document for each layer
+
+* Make a copy of geoMetadata.xml and createMetadata.py in the collection folder
+
+* Run createMetadata.py
+
 
 
 
