@@ -53,9 +53,13 @@ Metadata is most often created for spatial data using a combination of spreadshe
 
 ### Creating ArcGIS XML
 
-* To create an ArcGIS XML document for each layer make a copy of geoMetadata.xml and createMetadata.py in the collection folder
+Copy the following files into the collection folder: geoMetadata.xml, createMetadata.py, createThumbnail.py
 
-* Run createMetadata.py
+* Create a blank ArcGIS XML document for each layer. 
+
+* Update each layer's metadata with values from the spreadsheet
+
+* Create a thumbnail image for each layer
 
 
 
