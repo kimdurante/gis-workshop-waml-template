@@ -6,11 +6,11 @@ has_children: true
 ---
 ## Metadata Workflows
 
-Metadata workflows for geospatial data manage the creation, transformation, and interoperability of metadata. 
+Metadata workflows for geospatial data manage the creation, transformation, and interoperability of metadata within a number of applications.
 
 ### Metadata Schemas
 
-The GIS infrastructure stores and publishes metadata in a variety of schemas so that data can be made available within different environments. 
+The spatial data infrastructure preserves and publishes metadata in a variety of schemas so that data can be made accessible within different environments. 
 
 ![Workflow](https://github.com/kimdurante/geospatial-data-management/blob/main/images/MDWorkflow.jpg?raw=true)
 
