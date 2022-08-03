@@ -29,6 +29,20 @@ Metadata is most often created for spatial data using a combination of spreadshe
 
 Make a copy of the GIS Metadata Spreadsheet in the collection folder. Add the filenames, druids, and titles, from the list of registered layers.
 
+|filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012||
+|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012||
+|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012||
+
+Add metadata values which apply to all layers in the collection
+
+|filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012||
+|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012||
+|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012||
+
 
 
 
