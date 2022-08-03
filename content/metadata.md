@@ -61,6 +61,8 @@ Copy the following files into the collection folder: geoMetadata.xml, createMeta
 
 * Create a thumbnail image for each layer
 
+* Synchronize metadata
+
 
 
 
