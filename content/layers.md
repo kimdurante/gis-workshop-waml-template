@@ -21,9 +21,6 @@ The infrastructure accepts data in any valid SRS. During the gisAssembly workflo
 
 **Spatial Reference Systems**
 
-
-**List Data**. Run [this script](https://raw.githubusercontent.com/kimdurante/metadataWorkflow/master/checkData.py) to create a csv list of filenames, SRSs, and data types for shapefiles and/or GeoTIFFs.
-
 ### Registering Data
 
 Register data layers using a csv file containing a **SourceID** and a **Label** for each layer. The SourceID contains the prefix  '*branner:*', an abbreviation of the collection name, and an underscore. The filename is appended to the prefix to create the SourceID (ex. *branner:fmmp12_alameda2012.shp*). The Label is the title of the data layer. 
