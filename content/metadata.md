@@ -10,7 +10,7 @@ Metadata workflows for geospatial data manage the creation, transformation, and 
 
 ### Metadata Schemas
 
-The spatial data infrastructure preserves and publishes metadata in a variety of schemas so that data can be made accessible within different environments. 
+The spatial data infrastructure preserves and publishes metadata in a variety of schemas. Metadata for spatial datasets is created in ArcGIS XML, then transformed into ISO 19139/19110, MODS, and GeoBlacklight metadata, in order to make data discoverable and accessible within different environments.
 
 ![Workflow](https://github.com/kimdurante/geospatial-data-management/blob/main/images/MDWorkflow.jpg?raw=true)
 
