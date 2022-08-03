@@ -39,9 +39,9 @@ Add metadata values which apply to all layers in the collection
 
 |filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming|2012|California Farmland Mapping and Monitoring Program, 2012||
-|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming|2012|California Farmland Mapping and Monitoring Program, 2012||
-|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming|2012|California Farmland Mapping and Monitoring Program, 2012||
+|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012|California Farmland Mapping and Monitoring Program, 2012||
+|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012|California Farmland Mapping and Monitoring Program, 2012||
+|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012|California Farmland Mapping and Monitoring Program, 2012||
 
 
 
