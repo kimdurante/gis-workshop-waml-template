@@ -21,7 +21,7 @@ The spatial data infrastructure preserves and publishes metadata in a variety of
 |MODS||SearchWorks, PURL, descMetadata|
 |GeoBlacklight Metadata Schema|A discovery schema for federated searching of geospatial data.|GeoBlacklight (EarthWorks)|
 
-### Metadata Creation
+### Creating Metadata
 
 Metadata is most often created for spatial data using a combination of spreadsheets, Python scripts, and ArcGIS. Using scripts and spreadsheets to manage both data and metadata is vastly more efficient, especially when working with multiple layers. Programs such as ArcGIS, QGIS, and GDAL/OGR are also extremely useful for wrangling data.
 
@@ -50,6 +50,12 @@ Add metadata values which are unique to each layer
 |alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
 |amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
 |butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
+
+Save the file as ```'metadata.csv'```
+
+### Creating ArcGIS XML
+
+
 
 
 
