@@ -7,8 +7,6 @@ nav_order: 0
 
 These guidelines describe geospatial data curation workflows for the Stanford Digital Repository (SDR), the Stanford Spatial Data Infrastructure (SSDI), [EarthWorks](https://earthworks.stanford.edu) and [SearchWorks](https://searchworks.stanford.edu).
 
-The [GIS Infrastructure](https://github.com/sul-dlss/gis-robot-suite) supports the preservation, access, and discovery of geospatial data at the layer-level. 
-
 ## Geospatial Data ## 
 
 **Types**. Geospatial data are of two types: raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons.
