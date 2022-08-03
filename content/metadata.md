@@ -21,18 +21,17 @@ The spatial data infrastructure preserves and publishes metadata in a variety of
 |MODS||SearchWorks, PURL, descMetadata|
 |GeoBlacklight Metadata Schema|A discovery schema for federated searching of geospatial data.|GeoBlacklight (EarthWorks)|
 
-### Metadata Creation Tools
+### Metadata Creation
 
-Although ArcGISPro is the primary cataloging interface for geospatial metadata, several automation routines may be used to alleviate the tediousness of many tasks. Most often, metadata creation begins in a spreadsheet that is used to autogenerate most ArcGIS XML metadata. The automated metadata creation workflow for geospatial data is incredibly more efficient than creating individual metadata records from scratch. 
+Metadata is most often created for spatial data using a combination of spreadsheets, Python scripts, and ArcGIS. Using scripts and spreadsheets to manage both data and metadata is vastly more efficient, especially when working with multiple layers. Programs such as ArcGIS, QGIS, and GDAL/OGR are also extremely useful for wrangling data.
 
-### Automated Metadata Creation Workflow
+### Using the Metadata Spreadsheet
 
-Copy the following files into the collection folder containing the data.
+Make a copy of the GIS Metadata Spreadsheet in the collection folder. Add the filenames, druids, and titles, from the list of registered layers.
 
-geoTemplate.xml
 
-metadata.csv
 
-moveFiles.py
+
+
 
 
