@@ -27,7 +27,7 @@ Metadata is most often created for spatial data using a combination of spreadshe
 
 ### Using the Metadata Spreadsheet
 
-Make a copy of the GIS Metadata Spreadsheet in the collection folder. Add the filenames, druids, and titles, from the list of registered layers.
+* Make a copy of the GIS Metadata Spreadsheet in the collection folder. Add the filenames, druids, and titles, from the list of registered layers.
 
 |filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -35,7 +35,7 @@ Make a copy of the GIS Metadata Spreadsheet in the collection folder. Add the fi
 |amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012||
 |butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012||
 
-Add metadata values which apply to all layers in the collection
+* Add metadata values which apply to all layers in the collection
 
 |filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -43,21 +43,17 @@ Add metadata values which apply to all layers in the collection
 |amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
 |butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
 
-Add metadata values which are unique to each layer
+* Add metadata values which are unique to each layer
 
 |filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
 |amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
 |butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
-
-Save the file as ```'metadata.csv'```
 
 ### Creating ArcGIS XML
 
-* Begin by creating an ArcGIS XML document for each layer
-
-* Make a copy of geoMetadata.xml and createMetadata.py in the collection folder
+* To create an ArcGIS XML document for each layer make a copy of geoMetadata.xml and createMetadata.py in the collection folder
 
 * Run createMetadata.py
 
