@@ -12,7 +12,7 @@ These guidelines describe geospatial data curation workflows for the Stanford Di
 
 **Types**. Geospatial data are of two types: raster and vector. Raster data are composed of grid cells (rows and columns). Vector data contain points, lines, and polygons.
 
-**Formats**. GIS file formats are containers used for encoding and exchanging geographic information. File formats store and organize references about entities and events (locations, dates, etc.). Additionally, formats play a crucial role in determining how the data can be used. 
+**Formats**. File formats are containers used for encoding and exchanging geographic information. File formats store and organize references about entities and events (locations, dates, etc.). Additionally, formats play a crucial role in determining how the data can be used. 
 
 File formats currently supported by the GIS infrastructure include:
 
@@ -24,10 +24,7 @@ File formats currently supported by the GIS infrastructure include:
 
 Guidelines for accessioning other content can be found here.
 
-
-## Workflows ##
-
-Geospatial data curation workflows overview
+## Geospatial data curation workflows overview ##
 
 | Workflow  | Description |
 | ------------- | ------------- |
