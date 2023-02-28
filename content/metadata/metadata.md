@@ -21,8 +21,8 @@ Copy the XML and csv templates into the collection folder.
 
 |Property|Description|Instructions|Example|
 |:-----|:-----|:-----|:-----|
-|filename|Filename of the data (incl. extension)|||
-|druid|DRUID|||
+|filename|Filename of the data|Required|alameda2014.shp|
+|druid|the druid for the object|Required||
 |title|Title of the resource|||
 |originator|Personal or organization who created the resource|||
 |publisher|Organization that published the data|||
