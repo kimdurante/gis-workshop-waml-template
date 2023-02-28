@@ -21,7 +21,7 @@ Metadata can be created for data layers using a combination of a spreadsheet, au
 
 Add the 
 
-### GIS Metadata Template Elements
+### GIS Metadata Field Level Gugidelines
 
 Metadata properties and their description.
 
