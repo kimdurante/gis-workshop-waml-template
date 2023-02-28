@@ -11,7 +11,7 @@ Creating metadata using a csv template and scripts is usually a faster and more 
 
 ### Creating a Metadata Spreadsheet
 
-Make a copy of this XML template in the collection folder. Make a copy of this csv template or create a csv file of filenames and data properties.
+Copy the XML template in the collection folder. Copy the data.csv template or create a csv of filenames and properties. 
 
 |filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
