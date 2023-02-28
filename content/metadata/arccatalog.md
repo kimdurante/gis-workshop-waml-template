@@ -15,9 +15,9 @@ Metadata can be created for data layers using a combination of a spreadsheet, au
 
 |filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012||
-|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012||
-|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012||
+|alameda2014.shp|rp378rd3804|Important Farmland, Alameda County, California, 2014||
+|amador2014.shp|mc357cj1107|Important Farmland, Amador County, California, 2014||
+|butte2014.shp|wf469qr5893|Important Farmland, Butte County, California, 2014||
 
 Add the 
 
