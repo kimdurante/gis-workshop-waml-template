@@ -15,9 +15,9 @@ Make a copy of this XML template in the collection folder. Make a copy of this c
 
 |filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|alameda2014.shp|rp378rd3804|Important Farmland, Alameda County, California, 2014||
-|amador2014.shp|mc357cj1107|Important Farmland, Amador County, California, 2014||
-|butte2014.shp|wf469qr5893|Important Farmland, Butte County, California, 2014||
+|alameda2014.shp|cr288qn9438|Important Farmland, Alameda County, California, 2014||
+|amador2014.shp|rh732dj1068|Important Farmland, Amador County, California, 2014||
+|butte2014.shp|fh845fm5801|Important Farmland, Butte County, California, 2014||
 
 
 
