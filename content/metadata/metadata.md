@@ -1,16 +1,23 @@
 ---
 layout: default
-title: Creating Metadata
+title: Metadata
 nav_order: 3
 parent: Metadata
 ---
 
 ## Creating Metadata
 
-Using metadata templates and scripts is often a more efficient workflow specially when handling with multiple layers. 
+Creating metadata using a csv template and scripts is usually a faster and more efficient process specially when handling multiple layers. Metadata can also be created in ArcCatalog, see the instructions here.
 
-Prior to cataloging/accessioning data, ensure that all layers have:
+### Creating a Metadata Spreadsheet
 
-* a valid filename (containing only letters, numbers, or underscores)
-* a valid geographic extent (bounding box coordinates)
-* a valid spatial reference system (SRS)
+Make a copy of this XML template in the collection folder. Make a copy of this csv template or create a csv file of filenames and data properties.
+
+|filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
+|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
+|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012||
+|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012||
+|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012||
+
+
+
