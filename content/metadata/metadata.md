@@ -12,11 +12,12 @@ It is also possible to create metadata directly in ArcCatalog by following the i
 
 ### Creating a Metadata Using a Spreadsheet
 
-Copy the XML and CSV templates into the collection folder. Fill out the csv template
+Copy the files (XML and CSV templates) into the collection folder. Fill out the csv template using 
 
 |Property|Description|Instructions|Example|
 |:-----|:-----|:-----|:-----|
 |filename|Filename of the data|**Required.**|alameda2014.shp|
+|sourceID|The source ID for the object|Construct sourceIds using the prefix ‘branner:’, an abbreviation of the collection name, and an underscore. Append the filename to the prefix (ex. branner:fmmp12_alameda2012.shp). |branner:fmmp12_alameda2014.shp|
 |druid|the druid for the object|**Required.**|cr288qn9438|
 |title|Title of the resource|**Required.** If there is an existing title, use it. Otherwise, create a title using the pattern: _What, Where, When_. For georeferenced maps, use the original map title plus '(Raster Image)'.|Important Farmland, Alameda County, California, 2014|
 |originator|Personal or organization who created the resource|||
