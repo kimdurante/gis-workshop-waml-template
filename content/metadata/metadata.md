@@ -7,12 +7,11 @@ parent: Metadata
 
 ## Creating Metadata
 
-Creating metadata using a csv template and scripts is usually a faster and more efficient cataloging method. 
-It is also possible to create metadata directly in ArcCatalog by following the instructions here.
+Creating metadata using a spreadsheet and scripts is usually faster and more efficient than creating metadata directly in ArcCatalog.
 
 ### Creating a Metadata Using a Spreadsheet
 
-Copy the files (XML and CSV templates) into the collection folder. Fill out data.csv, leaving the druid column blank. 
+Copy the metadata management files (LINK) into the collection folder. Fill out data.csv, leaving the druid column blank. 
 
 
 |Property|Description|Instructions|Example|
