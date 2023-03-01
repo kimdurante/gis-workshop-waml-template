@@ -34,8 +34,8 @@ Copy the files (XML and CSV templates) into the collection folder. Fill out the 
 |contactName|Name of the person or organization to contact with questions about the data|||
 |contactEmail|Email of the person or organization to contact with questions about the data|||
 |format|File format of the data|Choose from values: Shapefile, GeoTIFF, ArcGRID|Shapefile|
-|uuid|Unique identifier for the feature catalog|Use for shapefiles only||
+|uuid|Unique identifier for the ISO 19110 feature catalog (entity and attribute definitions)|Use for shapefiles only|ffbac2ee-53a7-425d-b3ab-beed0b718de6|
 |access|Restrictions on user access to the data|Choose from values: Public or Restricted|Public|
-|usage|Restrictions on use and reproduction of the data|||
+|usage|Restrictions on use and reproduction of the data||'his item is in the public domain. There are no restrictions on use.'|
 
 
