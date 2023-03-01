@@ -22,8 +22,8 @@ Copy the XML and csv templates into the collection folder.
 |Property|Description|Instructions|Example|
 |:-----|:-----|:-----|:-----|
 |filename|Filename of the data|Required|alameda2014.shp|
-|druid|the druid for the object|Required||
-|title|Title of the resource|||
+|druid|the druid for the object|Required|cr288qn9438|
+|title|Title of the resource|Required. If there is an existing title, use it. Otherwise, create a title using the pattern: _What, Where, When_. For georeferenced maps, use the original map title plus '(Raster Image)'.||
 |originator|Personal or organization who created the resource|||
 |publisher|Organization that published the data|||
 |publicationDate|Publication date for the resource|||
