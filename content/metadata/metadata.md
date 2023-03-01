@@ -24,7 +24,7 @@ Copy the XML and CSV templates into the collection folder. Fill out the csv temp
 |publicationDate|Publication date for the resource||2014|
 |abstract|Descriptive summary of the data|**Required**||
 |theme||These should be consistent and chosen from a controlled vocabulary. In ArcCatalog, enter one keyword per line.|Census, Housing|
-|place|Keywords containing place names|These should be consistent and chosen from a controlled vocabulary. In ArcCatalog, enter one keyword per line.|**Required.**|Alameda County (Calif.)|
+|place|Keywords containing place names|**Required.** These should be consistent and chosen from a controlled vocabulary. In ArcCatalog, enter one keyword per line.|Alaemda County (Calif.)|
 |temporalBegin||||
 |temporalEnd||||
 |collectionTitle||||
