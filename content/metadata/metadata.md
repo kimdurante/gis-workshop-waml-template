@@ -15,7 +15,7 @@ Copy the metadata management files (LINK) into the collection folder. Fill out t
 
 
 |Fields|Example|
-|:-----|:-----|:-----|:-----|
+|:-----|:-----|
 |filename|alameda2014.shp|
 |sourceID|branner:fmmp14_alameda2014.shp|
 |druid|cr288qn9438|
