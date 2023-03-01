@@ -17,7 +17,7 @@ Copy the files (XML and CSV templates) into the collection folder. Fill out the 
 |Property|Description|Instructions|Example|
 |:-----|:-----|:-----|:-----|
 |filename|Filename of the data|**Required.**|alameda2014.shp|
-|sourceID|The source ID for the object|SourceIds use the prefix: ‘branner:’ + an abbreviation of the collection name + underscore + filename.|branner:fmmp14_alameda2014.shp|
+|sourceID|The source ID for the object|SourceIds use the prefix: ‘branner:’ + an abbreviation of the collection + _ + filename.|branner:fmmp14_alameda2014.shp|
 |druid|the druid for the object|**Required.**|cr288qn9438|
 |title|Title of the resource|**Required.** If there is an existing title, use it. Otherwise, create a title using the pattern: _What, Where, When_. For georeferenced maps, use the original map title plus '(Raster Image)'.|Important Farmland, Alameda County, California, 2014|
 |originator|Personal or organization who created the resource|||
