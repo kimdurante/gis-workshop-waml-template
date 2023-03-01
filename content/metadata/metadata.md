@@ -14,8 +14,8 @@ Creating metadata using a spreadsheet and scripts is usually faster and more eff
 Copy the metadata management files (LINK) into the collection folder. Fill out the following fields in data.csv, leave the druid column blank. 
 
 
-|Fields|Example|
-|:-----|:-----|
+|Field|Example|
+|:--|:-----|
 |filename|alameda2014.shp|
 |sourceID|branner:fmmp14_alameda2014.shp|
 |druid|cr288qn9438|
