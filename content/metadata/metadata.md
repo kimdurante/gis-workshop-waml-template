@@ -32,9 +32,9 @@ Copy the XML and CSV templates into the collection folder. Fill out the csv temp
 |relatedItemURL||||
 |contactName||||
 |contactEmail||||
-|uuid||||
 |format|File format of the data|Choose from values: Shapefile, GeoTIFF, ArcGRID|Shapefile|
-
-
+|uuid|||
+|access|Restrictions on user access to the data||Public|
+|usage|Restrictions on use and reproduction of the data|||
 
 
