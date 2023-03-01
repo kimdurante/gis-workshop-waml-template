@@ -24,7 +24,7 @@ Copy the files (XML and CSV templates) into the collection folder. Fill out the 
 |publisher|Organization that published the data|Use an authorized name term when possible, or transcribe according to the relevant content standard.|California Farmland Mapping and Monitoring Program|
 |publicationDate|Publication date for the resource||2014|
 |abstract|Descriptive summary of the data|**Required.** Describes the contents of the data. |This polygon shapefile represents areas of important farmland in Alameda County, California for 2014. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public. The data is a current inventory of agricultural resources. This data is for general planning purposes and has a minimum mapping unit of ten acres. |
-|theme||These should be consistent and chosen from a controlled vocabulary. In ArcCatalog, enter one keyword per line.|Census, Housing|
+|theme||These should be consistent and chosen from a controlled vocabulary. Separate multiple entries with a \||Land use\||Urbanization\|Agriculture|
 |place|Keywords containing place names|**Required.** These should be consistent and chosen from a controlled vocabulary. In ArcCatalog, enter one keyword per line.|Alaemda County (Calif.)|
 |temporalExtent|Date or date range for which the content of the resource is valid. Sometimes this is referred to as ground condition or date of situation.|If same as the publication date, leave blank. Otherwise, enter as either YYYY, YYYY-MM, or YYYY-MM-DD.|2014|
 |collectionTitle|The title for the collection||California Farmland Mapping and Monitoring Program, 2014|
