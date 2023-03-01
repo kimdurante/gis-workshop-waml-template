@@ -7,17 +7,12 @@ parent: Metadata
 
 ## Creating Metadata
 
-Creating metadata using a csv template and scripts is usually a faster and more efficient process specially when handling multiple layers. Metadata can also be created in ArcCatalog, see the instructions here.
+Creating metadata using a csv template and scripts is usually a faster and more efficient cataloging method. 
+It is also possible to create metadata directly in ArcCatalog by following the instructions here.
 
-### Creating a Metadata Spreadsheet
+### Creating a Metadata Using a Spreadsheet
 
-Copy the XML and csv templates into the collection folder.
-
-|filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|alameda2014.shp|cr288qn9438|Important Farmland, Alameda County, California, 2014||
-|amador2014.shp|rh732dj1068|Important Farmland, Amador County, California, 2014||
-|butte2014.shp|fh845fm5801|Important Farmland, Butte County, California, 2014||
+Copy the XML and CSV templates into the collection folder. Fill out the csv template
 
 |Property|Description|Instructions|Example|
 |:-----|:-----|:-----|:-----|
