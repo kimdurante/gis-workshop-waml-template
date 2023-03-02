@@ -9,16 +9,15 @@ parent: Metadata
 
 Creating metadata using a spreadsheet and scripts is usually faster and more efficient than creating metadata directly in ArcCatalog.
 
-### Creating a Metadata Using a Spreadsheet
+### Create a Spreadsheet
 
-Copy the metadata management files (LINK) into the collection folder. Fill out the following fields in data.csv, leave the druid column blank. 
+Copy the metadata management files (LINK) into the collection folder. Fill out the following fields for each layer in data.csv, leave all other columns blank.
 
 
 |Field|Example|
 |:-----|:-----|
 |filename|alameda2014.shp|
 |sourceID|branner:fmmp14_alameda2014.shp|
-|druid|cr288qn9438|
 |title|Important Farmland, Alameda County, California, 2014|
 |publisher|California Farmland Mapping and Monitoring Program|
 |publicationDate|2014|
@@ -33,5 +32,15 @@ Copy the metadata management files (LINK) into the collection folder. Fill out t
 |uuid|ffbac2ee-53a7-425d-b3ab-beed0b718de6|
 |access|Public|
 |usage|This item is in the public domain. There are no restrictions on use.|
+
+### Register Data
+
+Using the sourceId and Title for each layer, register the items in Argo under their APO/Collection. Use content type: File. This will create a DRUID for each layer. Add the DRUIDs to data.csv.
+
+### Generate XML Metadata
+
+Run ```createMetadata.py```
+
+
 
 
