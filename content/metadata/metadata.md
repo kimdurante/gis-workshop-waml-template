@@ -75,7 +75,12 @@ While not required, metadata describing the attribute table (feature catalog) ar
 |polygon_ac|The acreage of the polygon feature|
 |polygon_ty|Identifies the mapping categories used by the Farmland Mapping and Monitoring Program|
 
+
+Run ```createAttributes.py``` to autogenerate the ArcGISXML elements. 
+
 ### Creating Thumbnail Images
+
+Thumbnail images are required by the gis-robots. They can be created from ArcCatalog previews, or through script. Thumbnails are stored in the ArcGISXML as a binary string. 
 
 
 
