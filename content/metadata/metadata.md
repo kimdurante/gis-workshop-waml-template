@@ -39,7 +39,31 @@ Using the sourceId and Title for each layer, register the items in Argo under th
 
 ### Generate XML Metadata
 
-Run ```createMetadata.py```
+Open a terminal and run ```createMetadata.py```.
+
+The layers must then be updated (synchronized) in ArcCatalog. In ArcCatalog, open a python window and run the following:
+
+```
+import arcpy
+from arcpy import env
+from arcpy import metadata as md
+import os
+
+#Path to the data directory
+env.workspace = "W:\Africa_Marine_Atlas"
+
+for dirs, subdirs, files in os.walk(env.workspace):
+    for f in files:
+        if f.endswith(".shp") or f.endswith(".tif"):
+            filePath = os.path.join(dirs, f)
+            src_item_md = md.Metadata(filePath)
+            print (src_item_md)
+            src_item_md.synchronize("ALWAYS")
+```
+
+### Creating Thumbnail Images
+
+
 
 
 
