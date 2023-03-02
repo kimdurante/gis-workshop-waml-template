@@ -23,7 +23,7 @@ Copy the metadata management files (LINK) into the collection folder. Fill out t
 |publicationDate|2014|
 |abstract|This polygon shapefile represents areas of important farmland in Alameda County, California for 2014. Established in 1982, Government Code Section 65570 mandates FMMP to biennially report on the conversion of farmland and grazing land, and to provide maps and data to local government and the public. The data is a current inventory of agricultural resources. This data is for general planning purposes and has a minimum mapping unit of ten acres. |
 |topic||Land use\|Urbanization\|Agriculture|
-|place|Alaemda County (Calif.)|
+|place|Alameda County (Calif.)|
 |collectionTitle|California Farmland Mapping and Monitoring Program, 2014|
 |collectionDruid|gn292dc0234|
 |contactName|California Farmland Mapping and Monitoring Program|
