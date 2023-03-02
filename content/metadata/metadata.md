@@ -41,9 +41,7 @@ Using the sourceId and Title for each layer, register the items in Argo under th
 
 ### Generate XML Metadata
 
-Open a terminal and run ```createMetadata.py```.
-
-The layers must then be updated (synchronized) in ArcCatalog. In ArcCatalog, open a python window and run the following:
+To transform the csv to ArcGISXML, open a terminal, navigate to the folder, and run ```createMetadata.py```. Select a layer in ArcGIS to verify the metadata. Because ArcGIS synchronizes data each time a layer is selected, they must be updated in order for the metadata to appear. To update layers open a python window in ArcCatalog and run the following:
 
 ```
 import arcpy
