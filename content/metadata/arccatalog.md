@@ -11,7 +11,7 @@ Metadata can be created for data layers using a combination of a spreadsheet, au
 
 ### Using a Metadata Template
 
-*  Make a copy of the GIS metadata template. Add the filenames, druidss, and titles, from the list of registered layers.
+*  Make a copy of the GIS metadata template. Add the filenames, druids, and titles, from the list of registered layers.
 
 |filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
