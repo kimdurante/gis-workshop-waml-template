@@ -17,51 +17,21 @@ The spatial data infrastructure preserves and publishes metadata in a variety of
 |Schema|Description|Application|
 |:--|:--|:--|
 |ArcGIS XML|Proprietary metadata format used in ArcGIS software.|ArcGIS|
-|ISO 19139|The ISO suite of Metadata Standards define how to describe geospatial information and services, including spatial-temporal extents, data sources, and feature catalogs. ISO 19139 metadata are created for all data layers. ISO 19110 metadata describing feature catalogs are created for shapefiles.|geoMetadata |
+|ISO 19139|The ISO suite of Metadata Standards define how to describe geospatial information and services, including spatial-temporal extents, data sources, and feature catalogs. ISO 19139 metadata are created for all data layers. ISO 19110 metadata describing feature catalogs are created for shapefiles.|GeoServer, geoMetadata |
 |MODS||SearchWorks, PURL, descMetadata|
 |GeoBlacklight Metadata Schema|A discovery schema for federated searching of geospatial data.|GeoBlacklight (EarthWorks)|
 
 ### Creating Metadata
 
-Metadata is most often created for spatial data using a combination of spreadsheets, Python scripts, and ArcGIS. Using scripts and spreadsheets to manage both data and metadata is vastly more efficient, especially when working with multiple layers. Programs such as ArcGIS, QGIS, and GDAL/OGR are also extremely useful for wrangling data.
+Metadata is most often created for spatial data using a combination of spreadsheets, Python scripts, and ArcGIS. Using scripts and spreadsheets to manage both data and metadata is vastly more efficient, especially when working with multiple layers. Using ArcCatalog is sometimes necessary in cases where complex editing or data wrangling is required. Programs such as QGIS, and GDAL/OGR are also extremely useful for wrangling data. 
 
-### Using the Metadata Spreadsheet
+[Creating metadata with a Spreadsheet](https://kimdurante.github.io/geospatial-data-management/content/metadata/metadata)
 
-* Make a copy of the GIS Metadata Spreadsheet in the collection folder. Add the filenames, druids, and titles, from the list of registered layers.
+Creating metadata with ArcGIS
 
-|filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012||
-|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012||
-|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012||
+Data Wrangling with GDAL\OGR
 
-* Add metadata values which apply to all layers in the collection
 
-|filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
-|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
-|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
-
-* Add metadata values which are unique to each layer
-
-|filename|druid|title|originator|publisher|abstract|theme|place|temporalBegin|temporalEnd|collectionTitle|
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|alameda2012.shp|rp378rd3804|Important Farmland, Alameda County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
-|amador2012.shp|mc357cj1107|Important Farmland, Amador County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
-|butte2012.shp|wf469qr5893|Important Farmland, Butte County, California, 2012|California. Farmland Mapping and Monitoring Program|California. Farmland Mapping and Monitoring Program||Land use\|Farming||2012||California Farmland Mapping and Monitoring Program, 2012||
-
-### Creating ArcGIS XML
-
-Copy the following files into the collection folder: geoMetadata.xml, createMetadata.py, createThumbnail.py
-
-* Create a blank ArcGIS XML document for each layer. 
-
-* Update each layer's metadata with values from the spreadsheet
-
-* Create a thumbnail image for each layer
-
-* Synchronize metadata
 
 
 
