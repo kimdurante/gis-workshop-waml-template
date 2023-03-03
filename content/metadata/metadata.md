@@ -5,15 +5,17 @@ nav_order: 3
 parent: Metadata
 ---
 
-## Creating Metadata
+## Creating Metadata with a Spreadsheet
 
-Creating metadata using a spreadsheet and scripts is usually faster and more efficient than creating metadata directly in ArcCatalog.
+Using a CSV template and Python scripts to generate ArcGISXML metadata.
+
+Copy the metadata management files (LINK) into the collection folder.
 
 ### Create a Spreadsheet
 
-Copy the metadata management files (LINK) into the collection folder. In data.csv, create a row for each layer and supply the appropriate metadata fields.
+In data.csv, create a row for each layer and supply the appropriate metadata fields. This workflow uses layers from the California Farmland Mapping and Monitoring 2014 collection.
 
-Example: Important Farmland, Alameda County, California, 2014
+Example layer: Important Farmland, Alameda County, California, 2014
 
 
 |Field|Example|
@@ -37,7 +39,7 @@ Example: Important Farmland, Alameda County, California, 2014
 
 ### Register Data
 
-Using the sourceId and Title for each layer, register the items in Argo under their APO/Collection. Use content type: File. This will create a DRUID for each layer. Add the DRUIDs to data.csv.
+Using the sourceId and title for each layer, register the items in Argo under their APO/Collection. Use content type: File. This will create a DRUID for each layer. Add the DRUIDs to data.csv.
 
 ### Generate XML Metadata
 
